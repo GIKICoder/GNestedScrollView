@@ -1,7 +1,7 @@
 
-# GStackScrollView
+# GNestedScrollView
 
-GStackScrollView 是一个基于Objective-c实现的嵌套滚动处理组件，专为实现复杂的嵌套滚动需求而设计。它提供了一种简洁且高效的方式，轻松应对多种嵌套滚动场景。
+GNestedScrollView 是一个基于Objective-c实现的嵌套滚动处理组件，专为实现复杂的嵌套滚动需求而设计。它提供了一种简洁且高效的方式，轻松应对多种嵌套滚动场景。
 
 ## 示例
 
@@ -34,7 +34,7 @@ pod 'GStackScrollView'
 
 ```objc
 /// setup
-GStackScrollView * sc = [[GStackScrollView alloc] init];
+GNestedScrollView * sc = [[GNestedScrollView alloc] init];
 self.stackScrollView = sc;
 sc.stackDelegate = self;
 [self.view addSubview:sc];
