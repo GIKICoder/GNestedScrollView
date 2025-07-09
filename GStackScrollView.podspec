@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GStackScrollView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '提供了一种简洁且高效的方式，轻松应对多种嵌套滚动场景。'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/GIKICoder/GStackScrollView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'GIKI' => '810373457@qq.com' }
+  s.author           = { 'GIKI' => 'giki.biu@gmail.com' }
   s.source           = { :git => 'https://github.com/GIKICoder/GStackScrollView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
