@@ -1,5 +1,5 @@
 PODS:
-  - GStackScrollView (0.1.0)
+  - GStackScrollView (0.1.1)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GStackScrollView: 56ca51794137eec051b813411ff942be1c7e74a3
+  GStackScrollView: ac28415aa47b0eb275bffa7b8d6206e42a77a9d9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 9da8786b7c42fe6909d8e202bbf60e45fe31484d
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

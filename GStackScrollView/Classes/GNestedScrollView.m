@@ -5,10 +5,10 @@
 //  Created by GIKI on 2024/8/5.
 //
 
-#import "GStackScrollView.h"
+#import "GNestedScrollView.h"
 #import "NSObject+GFBKVOController.h"
 
-@interface GStackScrollView ()<UIScrollViewDelegate>
+@interface GNestedScrollView ()<UIScrollViewDelegate>
 @property (nonatomic, strong) NSPointerArray * containers;
 @property (nonatomic, strong) UIScrollView * overlayView;
 @property (nonatomic, strong) NSPointerArray * childScollViews;
@@ -18,7 +18,7 @@
 @property (nonatomic, assign) BOOL  isHover;
 @end
 
-@implementation GStackScrollView
+@implementation GNestedScrollView
 
 #pragma mark - Init Method
 
@@ -274,8 +274,8 @@
         }
        
     }
-    if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_stackUpdateScrollContentSize:)]) {
-        [self.stackDelegate g_stackUpdateScrollContentSize:CGSizeMake(self.contentSize.width, top_origin)];
+    if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_nestedUpdateScrollContentSize:)]) {
+        [self.nestedDelegate g_nestedUpdateScrollContentSize:CGSizeMake(self.contentSize.width, top_origin)];
     }
 }
 
@@ -297,10 +297,10 @@
 
 - (UIView *)__fetchAttachViewWithContainer:(id)container
 {
-    if (container && [container respondsToSelector:@selector(g_stackAttatchView)]) {
-        return [container g_stackAttatchView];
-    } else if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_stackAttatchViewWithContainer:)]) {
-        UIView * attach = [self.stackDelegate g_stackAttatchViewWithContainer:container];
+    if (container && [container respondsToSelector:@selector(g_nestedAttatchView)]) {
+        return [container g_nestedAttatchView];
+    } else if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_nestedAttatchViewWithContainer:)]) {
+        UIView * attach = [self.nestedDelegate g_nestedAttatchViewWithContainer:container];
         if (attach) {
             return attach;
         }
@@ -313,14 +313,14 @@
 
 - (UIScrollView *)__fetchAdjustScrollerWithContainer:(id)container
 {
-    if (container && [container respondsToSelector:@selector(g_stackScrollView)]) {
-        UIScrollView * scrollView = [container g_stackScrollView];
+    if (container && [container respondsToSelector:@selector(g_nestedScrollView)]) {
+        UIScrollView * scrollView = [container g_nestedScrollView];
         if (scrollView && [scrollView isKindOfClass:UIScrollView.class]) {
             return scrollView;
         }
     }
-    if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_stackScrollViewWithContainer:)]) {
-        UIScrollView * scrollView = [self.stackDelegate g_stackScrollViewWithContainer:container];
+    if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_nestedScrollViewWithContainer:)]) {
+        UIScrollView * scrollView = [self.nestedDelegate g_nestedScrollViewWithContainer:container];
         if (scrollView && [scrollView isKindOfClass:UIScrollView.class]) {
             return scrollView;
         }
@@ -333,8 +333,8 @@
     if (container && [container respondsToSelector:@selector(g_customAttatchViewHeight)]) {
         return [container g_customAttatchViewHeight];
     }
-    if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_customAttatchViewHeight:)]) {
-        CGFloat ret = [self.stackDelegate g_customAttatchViewHeight:container];
+    if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_customAttatchViewHeight:)]) {
+        CGFloat ret = [self.nestedDelegate g_customAttatchViewHeight:container];
         return ret;
     }
     return 0;
@@ -345,8 +345,8 @@
     if (container && [container respondsToSelector:@selector(g_needUpdateFrameWhenContentSizeChanged)]) {
         return [container g_needUpdateFrameWhenContentSizeChanged];
     }
-    if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_needUpdateFrameWhenContentSizeChanged:)]) {
-        BOOL ret  = [self.stackDelegate g_needUpdateFrameWhenContentSizeChanged:container];
+    if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_needUpdateFrameWhenContentSizeChanged:)]) {
+        BOOL ret  = [self.nestedDelegate g_needUpdateFrameWhenContentSizeChanged:container];
         return ret;
     }
     return NO;
@@ -357,8 +357,8 @@
     if (container && [container respondsToSelector:@selector(g_needTakeoverScrollPanGesture)]) {
         return [container g_needTakeoverScrollPanGesture];
     }
-    if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_needTakeoverScrollPanGesture:)]) {
-        BOOL ret  = [self.stackDelegate g_needTakeoverScrollPanGesture:container];
+    if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_needTakeoverScrollPanGesture:)]) {
+        BOOL ret  = [self.nestedDelegate g_needTakeoverScrollPanGesture:container];
         return ret;
     }
     return NO;
@@ -380,8 +380,8 @@
 - (CGFloat)__fetchHoverHeight
 {
     CGFloat hoverHeight = 0;
-    if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_stackHoverHeight)]) {
-        hoverHeight = [self.stackDelegate g_stackHoverHeight];
+    if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_nestedHoverHeight)]) {
+        hoverHeight = [self.nestedDelegate g_nestedHoverHeight];
     } else {
         hoverHeight = [self __fetchTopContainerHeight];
     }
@@ -451,8 +451,8 @@
     if (self.overlayView) {
         self.overlayView.contentSize = CGSizeMake(self.contentSize.width, top_origin);
     }
-    if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_stackUpdateScrollContentSize:)]) {
-        [self.stackDelegate g_stackUpdateScrollContentSize:CGSizeMake(self.contentSize.width, top_origin)];
+    if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_nestedUpdateScrollContentSize:)]) {
+        [self.nestedDelegate g_nestedUpdateScrollContentSize:CGSizeMake(self.contentSize.width, top_origin)];
     }
 }
 
@@ -537,8 +537,8 @@
     
     CGFloat offset = scrollView.contentOffset.y;
     
-    if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_stackUpdateScrollOffset:)]) {
-        [self.stackDelegate g_stackUpdateScrollOffset:scrollView.contentOffset];
+    if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_nestedUpdateScrollOffset:)]) {
+        [self.nestedDelegate g_nestedUpdateScrollOffset:scrollView.contentOffset];
     }
     /// scrollView 开启bounces效果
     if (!self.bounces) {
@@ -597,22 +597,22 @@
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 {
-    if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_stackWillBeginDragging:)]) {
-        [self.stackDelegate g_stackWillBeginDragging:scrollView];
+    if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_nestedWillBeginDragging:)]) {
+        [self.nestedDelegate g_nestedWillBeginDragging:scrollView];
     }
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     
-    if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_stackDidEndDecelerating:)]) {
-        [self.stackDelegate g_stackDidEndDecelerating:scrollView];
+    if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_nestedDidEndDecelerating:)]) {
+        [self.nestedDelegate g_nestedDidEndDecelerating:scrollView];
     }
 }
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
     
-    if (self.stackDelegate && [self.stackDelegate respondsToSelector:@selector(g_stackDidEndDragging:willDecelerate:)]) {
-        [self.stackDelegate g_stackDidEndDragging:scrollView willDecelerate:decelerate];
+    if (self.nestedDelegate && [self.nestedDelegate respondsToSelector:@selector(g_nestedDidEndDragging:willDecelerate:)]) {
+        [self.nestedDelegate g_nestedDidEndDragging:scrollView willDecelerate:decelerate];
     }
 }
 

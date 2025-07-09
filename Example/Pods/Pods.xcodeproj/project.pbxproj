@@ -7,124 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01758A663A2504ECC61A89A66C440890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
-		1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23947ADB06D749D7C7829C84C6D7FC41 /* GFBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0253936C41EAB9380269442D8097165 /* GFBKVOController.m */; };
-		27B68118EC7A874624159485B3F49572 /* GStackScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 647E6571821FC55049CF0B3BD2C4F3F7 /* GStackScrollView.m */; };
-		2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A95964AE9C5726F80CB497ED5940AA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		492EA1AC9EAA5646E3549CB6DB10BE83 /* GStackScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4E8BC8BC772B1363B3B1DE49F6ADB8 /* GStackScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
-		53305278F1654F968B4E02DF71B098BE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
-		54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
-		567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
-		61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67DC06AF7547C12FB0B7ED89F6A8E72B /* GStackScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 960840610DC3FBD3CDB4EFF48063C155 /* GStackScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C76C60E3C27BCD5117023BC13C9409C /* GFBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = A2AB9459F9F356D6FC6D6B54676D2CEE /* GFBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
-		8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		8441CE198E687D416C496E4A812089B4 /* NSObject+GFBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC74E8F737C95E5A842686BEF6A8FBB /* NSObject+GFBKVOController.m */; };
-		8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C10025B5CA3AF73AADAA9AA9620DE18 /* NSObject+GFBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A810AB8542008EADB7D7A578BA336B /* NSObject+GFBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CA1012D4951F8124348CD530AE3E379 /* GStackScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69561B2CCE52AAF0673837515D9872B6 /* GStackScrollView-dummy.m */; };
-		9D76DEAB052EAB1D717318D56C0023CF /* Pods-GStackScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6750788514E8B869858D045FF7AB710A /* Pods-GStackScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
-		A754BAD824BDC5B9415F0E3AD5E0BE11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		C85B61DEE163890A03CFDBDEAF86CABF /* Pods-GStackScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D675532628A3D38A3B062D3225B53A /* Pods-GStackScrollView_Example-dummy.m */; };
-		C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
-		CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
-		CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB227ED23DA3BA11ECB4581B13438C48 /* Pods-GStackScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD945B0F1A3CB965EE2227E6944C883C /* Pods-GStackScrollView_Tests-dummy.m */; };
-		DB44C38F5195A44F04D35FC0F9D44CEF /* Pods-GStackScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9DC52ACFC322705911FA46A469F8B4 /* Pods-GStackScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		048ECEC84F02D5665B3CD859E2FE7DFA /* GFBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = F114A642F96BC7179AA711C90458D5E9 /* GFBKVOController.m */; };
+		05E2B7C1DB7528A0BBEA1521BE0DBAF1 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150264FDAC6C432B7C22F06810B171A8 /* Pods-GStackScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9DC52ACFC322705911FA46A469F8B4 /* Pods-GStackScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B890ABDC7DD441E6AA662325D412E6 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F37B8FB70C69C1CE06E54048B262615 /* Pods-GStackScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6750788514E8B869858D045FF7AB710A /* Pods-GStackScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4571A0EA37DC84F39E3830D38A1531AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		548F4C671B5DB259AAF25F70165BB9CB /* Pods-GStackScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D675532628A3D38A3B062D3225B53A /* Pods-GStackScrollView_Example-dummy.m */; };
+		56E800EB3B2BE8AE0BA45A30974D7920 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		57D85985664EF31E7FC3F6FF0E23E1EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		5B08596E856E4CC2F34A8A2372F9F764 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		5CFB383E677A63FC4AC335F8A4A78AD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		5F45735DF355530CC955066D3C007E19 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61507E402F1F7C58BF119995A0479A22 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		731F29F10B8212C1812A4128DC89F3EA /* NSObject+GFBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6E783F431D5BD0E0C1E4B98314740 /* NSObject+GFBKVOController.m */; };
+		772CF8E9CD02ECA4275B6173E2110E80 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C5505A2D3F2A697A5F324787061F4B7 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		813BE4C96A6D39C13EC50C6CD164F0AF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844F2604348698A38E1AC599122CC628 /* Pods-GStackScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD945B0F1A3CB965EE2227E6944C883C /* Pods-GStackScrollView_Tests-dummy.m */; };
+		8C6C7E25C5A24C936F81823978190E96 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FF7B6477BFA6E6ABA168E1417291D5F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		AE7B02645B8F769CA5F215EE8F7CC5B0 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B59E60FBC9665FC1061B88B8E6FD9FAF /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B680C2604BD8BC9644AE7C67BC46B9BB /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA904ABA8ED36CC4E5EB2B2004CA1F18 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF22D137EF6324675FA50080C5D93C00 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFCFA0294F8F849DBBC4001CB9D6DE18 /* GStackScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311255432AB456686A6266988C0ADC2 /* GStackScrollView-dummy.m */; };
+		C2068AEACC2D9C7F1FFE41AA25B12A68 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2FE60A10C792613E45031AE6E851ECB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		C857B8D2D0BAA5A8A764F9E1C4B85807 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		C8EC35DFB0945DBE2F2FF9ECFE6D9711 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C9E19D164C26414115CC969ED9A303C1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		D271416FE3F855C062ED63C2F910C8EB /* GStackScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D20D690B16B70C1EBDCB69D202325582 /* GStackScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D60DD0DC90EA9423B44ECC5EB4648AB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		D663837F4347AF58660EE6F7FD426ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		D788BA4B9E8186271BA75CA52B30502C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		DBA9500CBBA5FF6FCBBA115AE4D12152 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2B15402CE105F5A8CE48BBDCFFD5DD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		E930A5612DC6D120BE040AD17C6D1BCD /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		EC9B34262AED632D7EFB49804337648E /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0EE714DCB389EEA9108C1E0C78CF038 /* GNestedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33857D9E4D308BD170F76A626D955572 /* GNestedScrollView.m */; };
+		F4C6A17F7E2EBD44D88D5D7649E8A923 /* GNestedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02274FED04B4C6F8D456D52B1BAFE089 /* GNestedScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6D1C960368EB1E067ABD0BFF707FC56 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		FD048734A66993C1F96BD3386489E102 /* NSObject+GFBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = FDAB0C872EC4CEFFE57243F2ED9525C3 /* NSObject+GFBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDBAA012AB7F55447447FD0E993EB705 /* GFBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 482A23356226D7AC03A018A37D3030E2 /* GFBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		542B00169411810BF80CDD701250189D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5F1E3C4F86ABD960C447B611562682B6;
-			remoteInfo = "Pods-GStackScrollView_Example";
-		};
-		755689ADC43AD4E488665DD0F7983773 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		C44411A693045CC9558368157A61B064 /* PBXContainerItemProxy */ = {
+		406E389B39186FE5C7382C54DACC12C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 782596E119698294593D6F42339D66E6;
 			remoteInfo = GStackScrollView;
 		};
+		C05B935D5AA656319B0EBFD6F5EDEDD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		E4F797D42B6924DDD80929851FCE1B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1E3C4F86ABD960C447B611562682B6;
+			remoteInfo = "Pods-GStackScrollView_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02274FED04B4C6F8D456D52B1BAFE089 /* GNestedScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNestedScrollView.h; path = GStackScrollView/Classes/GNestedScrollView.h; sourceTree = "<group>"; };
 		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		19916FCEFB1E206286C2A98D11DE59BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17094B833A6962EA1EF85A5C4FB42FA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		2EC44CD8A613BA44C7B17D3950297827 /* GStackScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GStackScrollView.modulemap; sourceTree = "<group>"; };
 		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		331D42C5344427A5224D04C77FD0E314 /* Pods-GStackScrollView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GStackScrollView_Tests-Info.plist"; sourceTree = "<group>"; };
+		33857D9E4D308BD170F76A626D955572 /* GNestedScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GNestedScrollView.m; path = GStackScrollView/Classes/GNestedScrollView.m; sourceTree = "<group>"; };
 		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3BE60823F2AD82BEE779B2805681353E /* GStackScrollView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GStackScrollView; path = GStackScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A58964E164083FE3741B95B69636353 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3BE60823F2AD82BEE779B2805681353E /* GStackScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GStackScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		3E806D487BD7879DE8A99A8DAA39CC0D /* Pods-GStackScrollView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GStackScrollView_Tests"; path = Pods_GStackScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E806D487BD7879DE8A99A8DAA39CC0D /* Pods_GStackScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GStackScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4098B684C20B1D79AF633660F50AED6C /* GStackScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GStackScrollView.release.xcconfig; sourceTree = "<group>"; };
 		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		44583D0710E7BF356463623ED081A8E8 /* GStackScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GStackScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45C74E8B29FAE00B3D739D7E58A3ED5F /* GStackScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GStackScrollView-Info.plist"; sourceTree = "<group>"; };
 		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		482A23356226D7AC03A018A37D3030E2 /* GFBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GFBKVOController.h; sourceTree = "<group>"; };
 		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		615DAEE248639B801554C1D83097E854 /* Pods-GStackScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GStackScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		647E6571821FC55049CF0B3BD2C4F3F7 /* GStackScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GStackScrollView.m; path = GStackScrollView/Classes/GStackScrollView.m; sourceTree = "<group>"; };
+		6311255432AB456686A6266988C0ADC2 /* GStackScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GStackScrollView-dummy.m"; sourceTree = "<group>"; };
 		6750788514E8B869858D045FF7AB710A /* Pods-GStackScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GStackScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		69561B2CCE52AAF0673837515D9872B6 /* GStackScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GStackScrollView-dummy.m"; sourceTree = "<group>"; };
 		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		6F9DB197BE539C940CB82195368F29AE /* Pods-GStackScrollView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GStackScrollView_Example"; path = Pods_GStackScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9DB197BE539C940CB82195368F29AE /* Pods_GStackScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GStackScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCE727EFAE7C239FDBF5561CA8E4168 /* Pods-GStackScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GStackScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		75F6E783F431D5BD0E0C1E4B98314740 /* NSObject+GFBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GFBKVOController.m"; sourceTree = "<group>"; };
 		7C9DC52ACFC322705911FA46A469F8B4 /* Pods-GStackScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GStackScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
 		7E74E01396AEAAF0B3C3A304C42DA983 /* Pods-GStackScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GStackScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8095DE3CFFB0E1B9EA0E3C7DDFAC7DC4 /* Pods-GStackScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GStackScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		811A725FC4415888E29A51F781A5D4D1 /* Pods-GStackScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GStackScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		95353F335A6AED2074DFE5F5FB49E846 /* GStackScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GStackScrollView-prefix.pch"; sourceTree = "<group>"; };
-		960840610DC3FBD3CDB4EFF48063C155 /* GStackScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GStackScrollView.h; path = GStackScrollView/Classes/GStackScrollView.h; sourceTree = "<group>"; };
-		9736CDEC193FE2C9EBD96726F6B3221F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		97AAD3B0FC6B9E5A46F161D8CCBC56D9 /* Pods-GStackScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GStackScrollView_Tests.modulemap"; sourceTree = "<group>"; };
 		9B854C70768ED9EE4357350354843292 /* Pods-GStackScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GStackScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0253936C41EAB9380269442D8097165 /* GFBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GFBKVOController.m; sourceTree = "<group>"; };
-		A0D0874A25ADDD157CCC490ECFDA54DE /* GStackScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GStackScrollView-Info.plist"; sourceTree = "<group>"; };
-		A2AB9459F9F356D6FC6D6B54676D2CEE /* GFBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GFBKVOController.h; sourceTree = "<group>"; };
-		A3A810AB8542008EADB7D7A578BA336B /* NSObject+GFBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+GFBKVOController.h"; sourceTree = "<group>"; };
 		A4D675532628A3D38A3B062D3225B53A /* Pods-GStackScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GStackScrollView_Example-dummy.m"; sourceTree = "<group>"; };
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
@@ -134,55 +132,57 @@
 		BB40D455BCC9EB4C0839D98BCD126A4E /* Pods-GStackScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GStackScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BD945B0F1A3CB965EE2227E6944C883C /* Pods-GStackScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GStackScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
 		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		C4211F65AD74418B87EE18D1294E34C3 /* GStackScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GStackScrollView-prefix.pch"; sourceTree = "<group>"; };
 		C4F6DA4E09B38867CD2A7F7558C780C1 /* Pods-GStackScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GStackScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAC74E8F737C95E5A842686BEF6A8FBB /* NSObject+GFBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GFBKVOController.m"; sourceTree = "<group>"; };
-		CC650E7AD1D929FC0FA4A5D26A5ABA24 /* GStackScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GStackScrollView.release.xcconfig; sourceTree = "<group>"; };
+		CC21A77A157756B35C10EC5F639AA827 /* GStackScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GStackScrollView.debug.xcconfig; sourceTree = "<group>"; };
 		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		D1D980DCAE6CA68302E2B966611A0F0D /* Pods-GStackScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GStackScrollView_Example.modulemap"; sourceTree = "<group>"; };
-		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DF4E8BC8BC772B1363B3B1DE49F6ADB8 /* GStackScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GStackScrollView-umbrella.h"; sourceTree = "<group>"; };
+		D20D690B16B70C1EBDCB69D202325582 /* GStackScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GStackScrollView-umbrella.h"; sourceTree = "<group>"; };
+		D760E8463ECDEB7CE3C96C3C3FF660C0 /* GStackScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GStackScrollView.modulemap; sourceTree = "<group>"; };
 		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		EF6DBA7F1C7175EE5101FD4BA4825712 /* GStackScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GStackScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F114A642F96BC7179AA711C90458D5E9 /* GFBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GFBKVOController.m; sourceTree = "<group>"; };
 		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		F2E726FEAD047AF0663CA0BF68D1685A /* GStackScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GStackScrollView.debug.xcconfig; sourceTree = "<group>"; };
 		F5B6C1DFBB57D2A3546349A58283BE86 /* Pods-GStackScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GStackScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F937A1DC01B606222253AC842E39EB2A /* Pods-GStackScrollView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GStackScrollView_Example-Info.plist"; sourceTree = "<group>"; };
+		FDAB0C872EC4CEFFE57243F2ED9525C3 /* NSObject+GFBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+GFBKVOController.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7B65CC6E77123A7B925D5B53F3175718 /* Frameworks */ = {
+		12A799DC8ABB2C283ADDDED4421A5EAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A754BAD824BDC5B9415F0E3AD5E0BE11 /* Foundation.framework in Frameworks */,
+				D663837F4347AF58660EE6F7FD426ECE /* Foundation.framework in Frameworks */,
+				4571A0EA37DC84F39E3830D38A1531AB /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		975AAA3E7FFE5A89BB668E104BFF04F4 /* Frameworks */ = {
+		34F5D33124140E261519E4C5F152477C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01758A663A2504ECC61A89A66C440890 /* Foundation.framework in Frameworks */,
+				D60DD0DC90EA9423B44ECC5EB4648AB7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCB6E60691DB58C9D2C0F26733F25C2E /* Frameworks */ = {
+		41DEFBD9877D446BA53D3A3564941DED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */,
-				8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */,
+				5CFB383E677A63FC4AC335F8A4A78AD9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0CF1217A126529B7440FD5CF8E8B474 /* Frameworks */ = {
+		81B84578B935DD70D8247D5FE6FD69AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A95964AE9C5726F80CB497ED5940AA9 /* Foundation.framework in Frameworks */,
+				57D85985664EF31E7FC3F6FF0E23E1EE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,15 +225,51 @@
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */,
+				ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2C5631331DD0AFF0E673098401C8A4E5 /* KVOController */ = {
+			isa = PBXGroup;
+			children = (
+				482A23356226D7AC03A018A37D3030E2 /* GFBKVOController.h */,
+				F114A642F96BC7179AA711C90458D5E9 /* GFBKVOController.m */,
+				FDAB0C872EC4CEFFE57243F2ED9525C3 /* NSObject+GFBKVOController.h */,
+				75F6E783F431D5BD0E0C1E4B98314740 /* NSObject+GFBKVOController.m */,
+			);
+			name = KVOController;
+			path = GStackScrollView/Classes/KVOController;
+			sourceTree = "<group>";
+		};
+		5017D8625E0BB732211E60D3F0005090 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D760E8463ECDEB7CE3C96C3C3FF660C0 /* GStackScrollView.modulemap */,
+				6311255432AB456686A6266988C0ADC2 /* GStackScrollView-dummy.m */,
+				45C74E8B29FAE00B3D739D7E58A3ED5F /* GStackScrollView-Info.plist */,
+				C4211F65AD74418B87EE18D1294E34C3 /* GStackScrollView-prefix.pch */,
+				D20D690B16B70C1EBDCB69D202325582 /* GStackScrollView-umbrella.h */,
+				CC21A77A157756B35C10EC5F639AA827 /* GStackScrollView.debug.xcconfig */,
+				4098B684C20B1D79AF633660F50AED6C /* GStackScrollView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GStackScrollView";
 			sourceTree = "<group>";
 		};
 		533CA87585C45E1F83C76D3D9C21D365 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E21C9191002457F0468D2C5BE5A51882 /* GStackScrollView */,
+				DAAFD5208B38CE3589707C53CB1523A9 /* GStackScrollView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -247,24 +283,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
-				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		63237D7F07FD731B8933D92E1B04D079 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BE60823F2AD82BEE779B2805681353E /* GStackScrollView */,
-				1FFED36A657123030ABB700256D73F15 /* Masonry */,
-				6F9DB197BE539C940CB82195368F29AE /* Pods-GStackScrollView_Example */,
-				3E806D487BD7879DE8A99A8DAA39CC0D /* Pods-GStackScrollView_Tests */,
+				3BE60823F2AD82BEE779B2805681353E /* GStackScrollView.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				6F9DB197BE539C940CB82195368F29AE /* Pods_GStackScrollView_Example.framework */,
+				3E806D487BD7879DE8A99A8DAA39CC0D /* Pods_GStackScrollView_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		661556A59F6FA743B739B77B3FE30BA1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EF6DBA7F1C7175EE5101FD4BA4825712 /* GStackScrollView.podspec */,
+				3A58964E164083FE3741B95B69636353 /* LICENSE */,
+				17094B833A6962EA1EF85A5C4FB42FA7 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
@@ -273,33 +310,6 @@
 				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		8C549CC4398AF56C03EDFEADBD62970B /* KVOController */ = {
-			isa = PBXGroup;
-			children = (
-				A2AB9459F9F356D6FC6D6B54676D2CEE /* GFBKVOController.h */,
-				A0253936C41EAB9380269442D8097165 /* GFBKVOController.m */,
-				A3A810AB8542008EADB7D7A578BA336B /* NSObject+GFBKVOController.h */,
-				CAC74E8F737C95E5A842686BEF6A8FBB /* NSObject+GFBKVOController.m */,
-			);
-			name = KVOController;
-			path = GStackScrollView/Classes/KVOController;
-			sourceTree = "<group>";
-		};
-		AD559EF3A579EE115706A962344F41CE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2EC44CD8A613BA44C7B17D3950297827 /* GStackScrollView.modulemap */,
-				69561B2CCE52AAF0673837515D9872B6 /* GStackScrollView-dummy.m */,
-				A0D0874A25ADDD157CCC490ECFDA54DE /* GStackScrollView-Info.plist */,
-				95353F335A6AED2074DFE5F5FB49E846 /* GStackScrollView-prefix.pch */,
-				DF4E8BC8BC772B1363B3B1DE49F6ADB8 /* GStackScrollView-umbrella.h */,
-				F2E726FEAD047AF0663CA0BF68D1685A /* GStackScrollView.debug.xcconfig */,
-				CC650E7AD1D929FC0FA4A5D26A5ABA24 /* GStackScrollView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GStackScrollView";
 			sourceTree = "<group>";
 		};
 		B6AA8F59A5467E037718A556C37D6A2A /* Pods-GStackScrollView_Example */ = {
@@ -346,24 +356,14 @@
 			);
 			sourceTree = "<group>";
 		};
-		DE2F0AE740E981D3A60E9690931870A6 /* Pod */ = {
+		DAAFD5208B38CE3589707C53CB1523A9 /* GStackScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				44583D0710E7BF356463623ED081A8E8 /* GStackScrollView.podspec */,
-				9736CDEC193FE2C9EBD96726F6B3221F /* LICENSE */,
-				19916FCEFB1E206286C2A98D11DE59BD /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		E21C9191002457F0468D2C5BE5A51882 /* GStackScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				960840610DC3FBD3CDB4EFF48063C155 /* GStackScrollView.h */,
-				647E6571821FC55049CF0B3BD2C4F3F7 /* GStackScrollView.m */,
-				8C549CC4398AF56C03EDFEADBD62970B /* KVOController */,
-				DE2F0AE740E981D3A60E9690931870A6 /* Pod */,
-				AD559EF3A579EE115706A962344F41CE /* Support Files */,
+				02274FED04B4C6F8D456D52B1BAFE089 /* GNestedScrollView.h */,
+				33857D9E4D308BD170F76A626D955572 /* GNestedScrollView.m */,
+				2C5631331DD0AFF0E673098401C8A4E5 /* KVOController */,
+				661556A59F6FA743B739B77B3FE30BA1 /* Pod */,
+				5017D8625E0BB732211E60D3F0005090 /* Support Files */,
 			);
 			name = GStackScrollView;
 			path = ../..;
@@ -388,53 +388,53 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46C0483AD6C8499EA287B71CC0BEB813 /* Headers */ = {
+		0EF2526B5CC15C0E915F32190565F64C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C76C60E3C27BCD5117023BC13C9409C /* GFBKVOController.h in Headers */,
-				67DC06AF7547C12FB0B7ED89F6A8E72B /* GStackScrollView.h in Headers */,
-				492EA1AC9EAA5646E3549CB6DB10BE83 /* GStackScrollView-umbrella.h in Headers */,
-				9C10025B5CA3AF73AADAA9AA9620DE18 /* NSObject+GFBKVOController.h in Headers */,
+				BA904ABA8ED36CC4E5EB2B2004CA1F18 /* MASCompositeConstraint.h in Headers */,
+				37B890ABDC7DD441E6AA662325D412E6 /* MASConstraint.h in Headers */,
+				7C5505A2D3F2A697A5F324787061F4B7 /* MASConstraint+Private.h in Headers */,
+				813BE4C96A6D39C13EC50C6CD164F0AF /* MASConstraintMaker.h in Headers */,
+				B680C2604BD8BC9644AE7C67BC46B9BB /* MASLayoutConstraint.h in Headers */,
+				EC9B34262AED632D7EFB49804337648E /* Masonry.h in Headers */,
+				B59E60FBC9665FC1061B88B8E6FD9FAF /* Masonry-umbrella.h in Headers */,
+				C2068AEACC2D9C7F1FFE41AA25B12A68 /* MASUtilities.h in Headers */,
+				05E2B7C1DB7528A0BBEA1521BE0DBAF1 /* MASViewAttribute.h in Headers */,
+				5F45735DF355530CC955066D3C007E19 /* MASViewConstraint.h in Headers */,
+				BF22D137EF6324675FA50080C5D93C00 /* NSArray+MASAdditions.h in Headers */,
+				61507E402F1F7C58BF119995A0479A22 /* NSArray+MASShorthandAdditions.h in Headers */,
+				DBA9500CBBA5FF6FCBBA115AE4D12152 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				AE7B02645B8F769CA5F215EE8F7CC5B0 /* View+MASAdditions.h in Headers */,
+				772CF8E9CD02ECA4275B6173E2110E80 /* View+MASShorthandAdditions.h in Headers */,
+				8C6C7E25C5A24C936F81823978190E96 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48318E06C6E71DDFA6D6EC28F26860FE /* Headers */ = {
+		88647A51810FC813BBD6D19CA2B303AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB44C38F5195A44F04D35FC0F9D44CEF /* Pods-GStackScrollView_Example-umbrella.h in Headers */,
+				FDBAA012AB7F55447447FD0E993EB705 /* GFBKVOController.h in Headers */,
+				F4C6A17F7E2EBD44D88D5D7649E8A923 /* GNestedScrollView.h in Headers */,
+				D271416FE3F855C062ED63C2F910C8EB /* GStackScrollView-umbrella.h in Headers */,
+				FD048734A66993C1F96BD3386489E102 /* NSObject+GFBKVOController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		786BB0FB3E45EA2FA8F141F8691C2A3F /* Headers */ = {
+		9081AFD46A88BACABB167CD4C0AF8CF6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D76DEAB052EAB1D717318D56C0023CF /* Pods-GStackScrollView_Tests-umbrella.h in Headers */,
+				3F37B8FB70C69C1CE06E54048B262615 /* Pods-GStackScrollView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99A8659D86DFD4C224D177332D003EDC /* Headers */ = {
+		B6B3F50215AE594402EC054FAD57A754 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */,
-				BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */,
-				A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */,
-				1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */,
-				2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */,
-				31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */,
-				B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */,
-				0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */,
-				715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */,
-				CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */,
-				8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */,
-				E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */,
-				BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */,
-				61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */,
-				B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */,
+				150264FDAC6C432B7C22F06810B171A8 /* Pods-GStackScrollView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,31 +443,31 @@
 /* Begin PBXNativeTarget section */
 		1B532BCA0E7D873F2B1B5E210EC4DE69 /* Pods-GStackScrollView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 111E525E5C604594B5D1C2A8D4633077 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Tests" */;
+			buildConfigurationList = 36FA3882E61543BD78B47DD0EFB68624 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Tests" */;
 			buildPhases = (
-				786BB0FB3E45EA2FA8F141F8691C2A3F /* Headers */,
-				8AE19381885CA64A3C501F3355472D92 /* Sources */,
-				7B65CC6E77123A7B925D5B53F3175718 /* Frameworks */,
-				1D5E94D66FBAB220A4596758EA9C486D /* Resources */,
+				9081AFD46A88BACABB167CD4C0AF8CF6 /* Headers */,
+				896C33F2EABE6CAB19A7B62CD7C43C95 /* Sources */,
+				41DEFBD9877D446BA53D3A3564941DED /* Frameworks */,
+				F7BFAD56032D858F5027EAFC41D57E58 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B397F8EB283568EF16B8918B2A9FE1A /* PBXTargetDependency */,
+				BD29B6A0C0B5DAE82CB75A1D0A381FF8 /* PBXTargetDependency */,
 			);
 			name = "Pods-GStackScrollView_Tests";
 			productName = Pods_GStackScrollView_Tests;
-			productReference = 3E806D487BD7879DE8A99A8DAA39CC0D /* Pods-GStackScrollView_Tests */;
+			productReference = 3E806D487BD7879DE8A99A8DAA39CC0D /* Pods_GStackScrollView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 104EC9250BF4EDE104280490293C13C3 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = AAA1F8799DB68036C3BE983C05FAA2C7 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				99A8659D86DFD4C224D177332D003EDC /* Headers */,
-				3003736003A11F9793D9EA6DC169AED7 /* Sources */,
-				CCB6E60691DB58C9D2C0F26733F25C2E /* Frameworks */,
-				4522D50300D635138BEDBF5E60D39B53 /* Resources */,
+				0EF2526B5CC15C0E915F32190565F64C /* Headers */,
+				DA0B6A6F9B3EDF226BF081DAC7E777E7 /* Sources */,
+				12A799DC8ABB2C283ADDDED4421A5EAB /* Frameworks */,
+				ECD6B9A8E754DF142B323DF2D7E0D112 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -475,37 +475,37 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5F1E3C4F86ABD960C447B611562682B6 /* Pods-GStackScrollView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00AD45CC58C7D3D5DE4595A971EC86A9 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Example" */;
+			buildConfigurationList = 9C619ABB0A807682D782B08CD2743FB3 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Example" */;
 			buildPhases = (
-				48318E06C6E71DDFA6D6EC28F26860FE /* Headers */,
-				653F76620BA5532E1E01EFB85FD9C46E /* Sources */,
-				975AAA3E7FFE5A89BB668E104BFF04F4 /* Frameworks */,
-				F5335887F50D75F6A5CA99EEBF08A3B5 /* Resources */,
+				B6B3F50215AE594402EC054FAD57A754 /* Headers */,
+				F88BE9214EFE451EA48ADABBC3511310 /* Sources */,
+				81B84578B935DD70D8247D5FE6FD69AC /* Frameworks */,
+				DC5BCEAA344D3661DC5D7003387DE193 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				90D59911427A0FDE65445A5A47364693 /* PBXTargetDependency */,
-				3743B046E99241F93E50B61B03B41D37 /* PBXTargetDependency */,
+				BDAC8E8315B77B6F61742CAF63FAF2BA /* PBXTargetDependency */,
+				DC8B0176E67EFB57709E890064F86FD5 /* PBXTargetDependency */,
 			);
 			name = "Pods-GStackScrollView_Example";
 			productName = Pods_GStackScrollView_Example;
-			productReference = 6F9DB197BE539C940CB82195368F29AE /* Pods-GStackScrollView_Example */;
+			productReference = 6F9DB197BE539C940CB82195368F29AE /* Pods_GStackScrollView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		782596E119698294593D6F42339D66E6 /* GStackScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5E32C653E6B61F971A3A90D345D0DB8 /* Build configuration list for PBXNativeTarget "GStackScrollView" */;
+			buildConfigurationList = ED2C4F69B222727EF082E4C0C8605810 /* Build configuration list for PBXNativeTarget "GStackScrollView" */;
 			buildPhases = (
-				46C0483AD6C8499EA287B71CC0BEB813 /* Headers */,
-				734C0B4C9FCCF5D79C6491C5BE63D0A3 /* Sources */,
-				E0CF1217A126529B7440FD5CF8E8B474 /* Frameworks */,
-				5848967FC11B8FD575C88E6D1444293B /* Resources */,
+				88647A51810FC813BBD6D19CA2B303AA /* Headers */,
+				919756C82615487A0266BED333CEBA49 /* Sources */,
+				34F5D33124140E261519E4C5F152477C /* Frameworks */,
+				80D07AEB411D494EAE4817AC38D53BA9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -513,7 +513,7 @@
 			);
 			name = GStackScrollView;
 			productName = GStackScrollView;
-			productReference = 3BE60823F2AD82BEE779B2805681353E /* GStackScrollView */;
+			productReference = 3BE60823F2AD82BEE779B2805681353E /* GStackScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -522,8 +522,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -547,28 +547,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D5E94D66FBAB220A4596758EA9C486D /* Resources */ = {
+		80D07AEB411D494EAE4817AC38D53BA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4522D50300D635138BEDBF5E60D39B53 /* Resources */ = {
+		DC5BCEAA344D3661DC5D7003387DE193 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5848967FC11B8FD575C88E6D1444293B /* Resources */ = {
+		ECD6B9A8E754DF142B323DF2D7E0D112 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5335887F50D75F6A5CA99EEBF08A3B5 /* Resources */ = {
+		F7BFAD56032D858F5027EAFC41D57E58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -578,75 +578,148 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3003736003A11F9793D9EA6DC169AED7 /* Sources */ = {
+		896C33F2EABE6CAB19A7B62CD7C43C95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */,
-				7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */,
-				4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */,
-				54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */,
-				CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */,
-				53305278F1654F968B4E02DF71B098BE /* MASViewAttribute.m in Sources */,
-				E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */,
-				C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */,
-				C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */,
-				567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */,
+				844F2604348698A38E1AC599122CC628 /* Pods-GStackScrollView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		653F76620BA5532E1E01EFB85FD9C46E /* Sources */ = {
+		919756C82615487A0266BED333CEBA49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C85B61DEE163890A03CFDBDEAF86CABF /* Pods-GStackScrollView_Example-dummy.m in Sources */,
+				048ECEC84F02D5665B3CD859E2FE7DFA /* GFBKVOController.m in Sources */,
+				F0EE714DCB389EEA9108C1E0C78CF038 /* GNestedScrollView.m in Sources */,
+				BFCFA0294F8F849DBBC4001CB9D6DE18 /* GStackScrollView-dummy.m in Sources */,
+				731F29F10B8212C1812A4128DC89F3EA /* NSObject+GFBKVOController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		734C0B4C9FCCF5D79C6491C5BE63D0A3 /* Sources */ = {
+		DA0B6A6F9B3EDF226BF081DAC7E777E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23947ADB06D749D7C7829C84C6D7FC41 /* GFBKVOController.m in Sources */,
-				27B68118EC7A874624159485B3F49572 /* GStackScrollView.m in Sources */,
-				9CA1012D4951F8124348CD530AE3E379 /* GStackScrollView-dummy.m in Sources */,
-				8441CE198E687D416C496E4A812089B4 /* NSObject+GFBKVOController.m in Sources */,
+				8FF7B6477BFA6E6ABA168E1417291D5F /* MASCompositeConstraint.m in Sources */,
+				DF2B15402CE105F5A8CE48BBDCFFD5DD /* MASConstraint.m in Sources */,
+				F6D1C960368EB1E067ABD0BFF707FC56 /* MASConstraintMaker.m in Sources */,
+				C9E19D164C26414115CC969ED9A303C1 /* MASLayoutConstraint.m in Sources */,
+				56E800EB3B2BE8AE0BA45A30974D7920 /* Masonry-dummy.m in Sources */,
+				E930A5612DC6D120BE040AD17C6D1BCD /* MASViewAttribute.m in Sources */,
+				C2FE60A10C792613E45031AE6E851ECB /* MASViewConstraint.m in Sources */,
+				5B08596E856E4CC2F34A8A2372F9F764 /* NSArray+MASAdditions.m in Sources */,
+				C8EC35DFB0945DBE2F2FF9ECFE6D9711 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D788BA4B9E8186271BA75CA52B30502C /* View+MASAdditions.m in Sources */,
+				C857B8D2D0BAA5A8A764F9E1C4B85807 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AE19381885CA64A3C501F3355472D92 /* Sources */ = {
+		F88BE9214EFE451EA48ADABBC3511310 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB227ED23DA3BA11ECB4581B13438C48 /* Pods-GStackScrollView_Tests-dummy.m in Sources */,
+				548F4C671B5DB259AAF25F70165BB9CB /* Pods-GStackScrollView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B397F8EB283568EF16B8918B2A9FE1A /* PBXTargetDependency */ = {
+		BD29B6A0C0B5DAE82CB75A1D0A381FF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GStackScrollView_Example";
 			target = 5F1E3C4F86ABD960C447B611562682B6 /* Pods-GStackScrollView_Example */;
-			targetProxy = 542B00169411810BF80CDD701250189D /* PBXContainerItemProxy */;
+			targetProxy = E4F797D42B6924DDD80929851FCE1B3B /* PBXContainerItemProxy */;
 		};
-		3743B046E99241F93E50B61B03B41D37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 755689ADC43AD4E488665DD0F7983773 /* PBXContainerItemProxy */;
-		};
-		90D59911427A0FDE65445A5A47364693 /* PBXTargetDependency */ = {
+		BDAC8E8315B77B6F61742CAF63FAF2BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GStackScrollView;
 			target = 782596E119698294593D6F42339D66E6 /* GStackScrollView */;
-			targetProxy = C44411A693045CC9558368157A61B064 /* PBXContainerItemProxy */;
+			targetProxy = 406E389B39186FE5C7382C54DACC12C0 /* PBXContainerItemProxy */;
+		};
+		DC8B0176E67EFB57709E890064F86FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = C05B935D5AA656319B0EBFD6F5EDEDD7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0BDD97280F1B4B278C5E5724257D6BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC21A77A157756B35C10EC5F639AA827 /* GStackScrollView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GStackScrollView/GStackScrollView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GStackScrollView/GStackScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GStackScrollView/GStackScrollView.modulemap";
+				PRODUCT_MODULE_NAME = GStackScrollView;
+				PRODUCT_NAME = GStackScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27CAEA71E6562A3EF3D974B56D8E1AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B6C1DFBB57D2A3546349A58283BE86 /* Pods-GStackScrollView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -713,6 +786,115 @@
 			};
 			name = Debug;
 		};
+		2FA069F22526EC50AA63AF288A5A39F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45D90C96AB2A7D21CE08BBC4693840F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4098B684C20B1D79AF633660F50AED6C /* GStackScrollView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GStackScrollView/GStackScrollView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GStackScrollView/GStackScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GStackScrollView/GStackScrollView.modulemap";
+				PRODUCT_MODULE_NAME = GStackScrollView;
+				PRODUCT_NAME = GStackScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53DAD5F006A2157C92C8FF4530978519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F6DA4E09B38867CD2A7F7558C780C1 /* Pods-GStackScrollView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GStackScrollView_Example/Pods-GStackScrollView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GStackScrollView_Example/Pods-GStackScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -774,239 +956,7 @@
 			};
 			name = Release;
 		};
-		6F519BF58B2496792497AE5FF519FE39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B854C70768ED9EE4357350354843292 /* Pods-GStackScrollView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8C323E972FEFC72C7AC6EDF1593C30E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8D5242667C7910E0EA3C06B8EACB8D32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC650E7AD1D929FC0FA4A5D26A5ABA24 /* GStackScrollView.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GStackScrollView/GStackScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GStackScrollView/GStackScrollView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GStackScrollView/GStackScrollView.modulemap";
-				PRODUCT_MODULE_NAME = GStackScrollView;
-				PRODUCT_NAME = GStackScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		92A0EA743A4C7995C99B155A730C8CE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5B6C1DFBB57D2A3546349A58283BE86 /* Pods-GStackScrollView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		96F578914B36DDF036398F6C1F0A1455 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DDEE49C1B9D5DCC103CA1B5B1E1FC2BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2E726FEAD047AF0663CA0BF68D1685A /* GStackScrollView.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GStackScrollView/GStackScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GStackScrollView/GStackScrollView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GStackScrollView/GStackScrollView.modulemap";
-				PRODUCT_MODULE_NAME = GStackScrollView;
-				PRODUCT_NAME = GStackScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F663EA0DD9D797EAE0DE198743965B4A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4F6DA4E09B38867CD2A7F7558C780C1 /* Pods-GStackScrollView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GStackScrollView_Example/Pods-GStackScrollView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GStackScrollView_Example/Pods-GStackScrollView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FD29C60BA4D965270A8B805AC9135E00 /* Debug */ = {
+		AB07812B4B2CE568D1E661E6DED3C6A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E74E01396AEAAF0B3C3A304C42DA983 /* Pods-GStackScrollView_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1021,12 +971,86 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-GStackScrollView_Example/Pods-GStackScrollView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GStackScrollView_Example/Pods-GStackScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD579C0995F39A1DE1A8FC355BC176BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2F4454A34D4947AC617906F775BB38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B854C70768ED9EE4357350354843292 /* Pods-GStackScrollView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1043,29 +1067,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00AD45CC58C7D3D5DE4595A971EC86A9 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Example" */ = {
+		36FA3882E61543BD78B47DD0EFB68624 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD29C60BA4D965270A8B805AC9135E00 /* Debug */,
-				F663EA0DD9D797EAE0DE198743965B4A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		104EC9250BF4EDE104280490293C13C3 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96F578914B36DDF036398F6C1F0A1455 /* Debug */,
-				8C323E972FEFC72C7AC6EDF1593C30E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		111E525E5C604594B5D1C2A8D4633077 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F519BF58B2496792497AE5FF519FE39 /* Debug */,
-				92A0EA743A4C7995C99B155A730C8CE1 /* Release */,
+				E2F4454A34D4947AC617906F775BB38B /* Debug */,
+				27CAEA71E6562A3EF3D974B56D8E1AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1079,11 +1085,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5E32C653E6B61F971A3A90D345D0DB8 /* Build configuration list for PBXNativeTarget "GStackScrollView" */ = {
+		9C619ABB0A807682D782B08CD2743FB3 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDEE49C1B9D5DCC103CA1B5B1E1FC2BA /* Debug */,
-				8D5242667C7910E0EA3C06B8EACB8D32 /* Release */,
+				AB07812B4B2CE568D1E661E6DED3C6A2 /* Debug */,
+				53DAD5F006A2157C92C8FF4530978519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA1F8799DB68036C3BE983C05FAA2C7 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA069F22526EC50AA63AF288A5A39F0 /* Debug */,
+				CD579C0995F39A1DE1A8FC355BC176BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2C4F69B222727EF082E4C0C8605810 /* Build configuration list for PBXNativeTarget "GStackScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDD97280F1B4B278C5E5724257D6BCE /* Debug */,
+				45D90C96AB2A7D21CE08BBC4693840F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

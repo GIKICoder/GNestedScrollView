@@ -11,9 +11,8 @@
 #endif
 
 #import "GStackScrollView.h"
-#import "GGFBKVOController.h"
-#import "KVOController.h"
-#import "NSObject+GGFBKVOController.h"
+#import "GFBKVOController.h"
+#import "NSObject+GFBKVOController.h"
 
 FOUNDATION_EXPORT double GStackScrollViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char GStackScrollViewVersionString[];

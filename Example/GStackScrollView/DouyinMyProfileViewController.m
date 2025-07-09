@@ -7,13 +7,13 @@
 //
 
 #import "DouyinMyProfileViewController.h"
-#import "GStackScrollView.h"
+#import "GNestedScrollView.h"
 #import "DouyinProfileHeaderView.h"
 #import "DouyinFeedListController.h"
 #import "GControllerScrollPager.h"
 #import "GPagerMenu.h"
-@interface DouyinMyProfileViewController ()<GStackScrollViewDelegate,GPagerMenuDelegate,GPagerMenuDataSource,GScrollPagerDelegate,GScrollPagerDataSource>
-@property (nonatomic, strong) GStackScrollView * stackScrollView;
+@interface DouyinMyProfileViewController ()<GNestedScrollViewDelegate,GPagerMenuDelegate,GPagerMenuDataSource,GScrollPagerDelegate,GScrollPagerDataSource>
+@property (nonatomic, strong) GNestedScrollView * stackScrollView;
 
 /// containers
 @property (nonatomic, strong) DouyinProfileHeaderView * headerView;
@@ -37,9 +37,9 @@
 
 - (void)setupStackScrollView
 {
-    GStackScrollView * sc = [[GStackScrollView alloc] init];
+    GNestedScrollView * sc = [[GNestedScrollView alloc] init];
     self.stackScrollView = sc;
-    sc.stackDelegate = self;
+    sc.nestedDelegate = self;
     [self.view addSubview:sc];
     sc.frame = self.view.bounds;
     sc.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
@@ -108,38 +108,38 @@
 
 /// 当stackScrollView offset 更新
 /// @param offset offset description
-- (void)g_stackUpdateScrollOffset:(CGPoint)offset
+- (void)g_nestedUpdateScrollOffset:(CGPoint)offset
 {}
 
 /// 当 stackScrollView 停止滚动
 /// @param scrollView 当前滚动的 scrollView
-- (void)g_stackDidEndDecelerating:(UIScrollView *)scrollView
+- (void)g_nestedDidEndDecelerating:(UIScrollView *)scrollView
 {}
 
 /// 当 stackScrollView 开始拖拽滚动
 /// @param scrollView <#scrollView description#>
-- (void)g_stackWillBeginDragging:(UIScrollView *)scrollView
+- (void)g_nestedWillBeginDragging:(UIScrollView *)scrollView
 {}
 
 /// 当 stackScrollView 停止拖动
 /// @param scrollView 当前拖动的 scrollView
-- (void)g_stackDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+- (void)g_nestedDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 {}
 
 /// 当stackScrollView contentSize 更新
 /// @param contentSize <#contentSize description#>
-- (void)g_stackUpdateScrollContentSize:(CGSize)contentSize
+- (void)g_nestedUpdateScrollContentSize:(CGSize)contentSize
 {}
 
 /// 返回当前stackView 悬停的坐标点.
 /// 不实现默认hover point是处最后一个scrollView之前的所有高度.
-- (CGFloat)g_stackHoverHeight
+- (CGFloat)g_nestedHoverHeight
 {
     return self.stackScrollView.stretchView.frame.size.height-16;
 }
 
 /// 需要添加到StackView上的containerView
-- (UIView *)g_stackAttatchViewWithContainer:(id)container
+- (UIView *)g_nestedAttatchViewWithContainer:(id)container
 {
     return  nil;
 }
@@ -147,7 +147,7 @@
 /// 可以通过delegate 回调 返回当前container 需要处理事件监听的ScrollView
 /// @param container container description
 /// 优先级(小于<)GStackContainerInterface
-- (UIScrollView *)g_stackScrollViewWithContainer:(id)container
+- (UIScrollView *)g_nestedScrollViewWithContainer:(id)container
 {
     if (container == self.scrollPager) {
         DouyinFeedListController * feed = [self.scrollPager visiblePager];
@@ -156,8 +156,8 @@
     return  nil;
 }
 
-/// 当前返回的'g_stackScrollView' 是否需要根据contentSize的变化自动更新当前container的Frame
-/// 需要实现了'g_stackScrollView'
+/// 当前返回的'g_nestedScrollView' 是否需要根据contentSize的变化自动更新当前container的Frame
+/// 需要实现了'g_nestedScrollView'
 /// 优先级(小于<)GStackContainerInterface
 - (BOOL)g_needUpdateFrameWhenContentSizeChanged:(id)container
 {
@@ -165,8 +165,8 @@
 }
 
 
-/// 当前返回的'g_stackScrollView' 是否需要stackScrollView 接管手势.
-/// 需要实现了'g_stackScrollView'
+/// 当前返回的'g_nestedScrollView' 是否需要stackScrollView 接管手势.
+/// 需要实现了'g_nestedScrollView'
 /// 一般用于子Container ScrollView需要联动的ScrollView
 /// 优先级(小于<)GStackContainerInterface
 - (BOOL)g_needTakeoverScrollPanGesture:(id)container
