@@ -1,9 +1,9 @@
 PODS:
-  - GStackScrollView (0.1.1)
+  - GNestedScrollView (0.1.0)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - GStackScrollView (from `../`)
+  - GNestedScrollView (from `../`)
   - Masonry
 
 SPEC REPOS:
@@ -11,13 +11,13 @@ SPEC REPOS:
     - Masonry
 
 EXTERNAL SOURCES:
-  GStackScrollView:
+  GNestedScrollView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GStackScrollView: ac28415aa47b0eb275bffa7b8d6206e42a77a9d9
+  GNestedScrollView: cbcff6cc4c4f9948bc8f75cf092c51ee8e259e02
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 9da8786b7c42fe6909d8e202bbf60e45fe31484d
+PODFILE CHECKSUM: 75ce8293df56ffc2dfed668397edfc6fa0ff8f9a
 
 COCOAPODS: 1.16.2

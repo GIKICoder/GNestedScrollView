@@ -1,9 +1,9 @@
 //
-//  GStackScrollViewTests.m
-//  GStackScrollViewTests
+//  GNestedScrollViewTests.m
+//  GNestedScrollViewTests
 //
-//  Created by GIKI on 08/05/2024.
-//  Copyright (c) 2024 GIKI. All rights reserved.
+//  Created by GIKI on 07/09/2025.
+//  Copyright (c) 2025 GIKI. All rights reserved.
 //
 
 @import XCTest;

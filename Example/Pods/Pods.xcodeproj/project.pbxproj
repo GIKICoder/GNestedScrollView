@@ -7,152 +7,160 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048ECEC84F02D5665B3CD859E2FE7DFA /* GFBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = F114A642F96BC7179AA711C90458D5E9 /* GFBKVOController.m */; };
 		05E2B7C1DB7528A0BBEA1521BE0DBAF1 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		150264FDAC6C432B7C22F06810B171A8 /* Pods-GStackScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9DC52ACFC322705911FA46A469F8B4 /* Pods-GStackScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		191C3F3BFA74DEDD42FFFD65A48A5A93 /* Pods-GNestedScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B663EC2FBF3A649BAD677EFD9BE6319 /* Pods-GNestedScrollView_Example-dummy.m */; };
+		1D9A2F8931B8C166FF462541DF6FC627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		309EECC01B073F4D46803994454AEE96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		30A3B46415B0E401B64F0F79D477D172 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
 		37B890ABDC7DD441E6AA662325D412E6 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F37B8FB70C69C1CE06E54048B262615 /* Pods-GStackScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6750788514E8B869858D045FF7AB710A /* Pods-GStackScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41B4B60070D4B8D99DD48F5E79BAA290 /* Pods-GNestedScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E90519D5E719C73016C2C7C8EE3DCE7 /* Pods-GNestedScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4571A0EA37DC84F39E3830D38A1531AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
-		548F4C671B5DB259AAF25F70165BB9CB /* Pods-GStackScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D675532628A3D38A3B062D3225B53A /* Pods-GStackScrollView_Example-dummy.m */; };
 		56E800EB3B2BE8AE0BA45A30974D7920 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
-		57D85985664EF31E7FC3F6FF0E23E1EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
 		5B08596E856E4CC2F34A8A2372F9F764 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
-		5CFB383E677A63FC4AC335F8A4A78AD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
 		5F45735DF355530CC955066D3C007E19 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61507E402F1F7C58BF119995A0479A22 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		731F29F10B8212C1812A4128DC89F3EA /* NSObject+GFBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6E783F431D5BD0E0C1E4B98314740 /* NSObject+GFBKVOController.m */; };
+		6D46D2168FF6F7B9A6079CF2E0D903E8 /* GFBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFC65F037CF1A752669B8DEC6C1D514 /* GFBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7213C7DA48FD087FA411E3CC37CE96AA /* GNestedScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 058763D3773504A396999270CF529BC2 /* GNestedScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		764B6C804669504BAB1E9171294973A1 /* Pods-GNestedScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F46FAC05CF3EAD6FB6CDEBB988CDBF50 /* Pods-GNestedScrollView_Tests-dummy.m */; };
 		772CF8E9CD02ECA4275B6173E2110E80 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C5505A2D3F2A697A5F324787061F4B7 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		813BE4C96A6D39C13EC50C6CD164F0AF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		844F2604348698A38E1AC599122CC628 /* Pods-GStackScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD945B0F1A3CB965EE2227E6944C883C /* Pods-GStackScrollView_Tests-dummy.m */; };
 		8C6C7E25C5A24C936F81823978190E96 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FF7B6477BFA6E6ABA168E1417291D5F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		AAB41816647CC65C04BA57C74137D44F /* GNestedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CE97C58270951BD977DCF18913976 /* GNestedScrollView.m */; };
+		AD46DF7D9E00C31D27777677AAD5ADE8 /* NSObject+GFBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DB8CEE0EF874851515CDFF6BA909EB /* NSObject+GFBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE7B02645B8F769CA5F215EE8F7CC5B0 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B59E60FBC9665FC1061B88B8E6FD9FAF /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B680C2604BD8BC9644AE7C67BC46B9BB /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA904ABA8ED36CC4E5EB2B2004CA1F18 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF22D137EF6324675FA50080C5D93C00 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFCFA0294F8F849DBBC4001CB9D6DE18 /* GStackScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311255432AB456686A6266988C0ADC2 /* GStackScrollView-dummy.m */; };
 		C2068AEACC2D9C7F1FFE41AA25B12A68 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2FE60A10C792613E45031AE6E851ECB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
 		C857B8D2D0BAA5A8A764F9E1C4B85807 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
 		C8EC35DFB0945DBE2F2FF9ECFE6D9711 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		C9E19D164C26414115CC969ED9A303C1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
-		D271416FE3F855C062ED63C2F910C8EB /* GStackScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D20D690B16B70C1EBDCB69D202325582 /* GStackScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D60DD0DC90EA9423B44ECC5EB4648AB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		CADF2B8B11B508040EDAB4020ACA01E1 /* GFBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64456770BE46E90F4783B79CC77F280 /* GFBKVOController.m */; };
+		CBCA89D74078861B37E9FF0DBCCB6CB2 /* GNestedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BABB444DD0C63E1F87C581CD96BE3A8 /* GNestedScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC12204E678F07B430B3FAAB10850E34 /* GNestedScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E6D6735E88126BB9AB6215953450A /* GNestedScrollView-dummy.m */; };
+		CF7780BDE6304CC40979A5A04002E4A0 /* Pods-GNestedScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54075A85D02C4321571452337FE878FB /* Pods-GNestedScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D663837F4347AF58660EE6F7FD426ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
 		D788BA4B9E8186271BA75CA52B30502C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
 		DBA9500CBBA5FF6FCBBA115AE4D12152 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF2B15402CE105F5A8CE48BBDCFFD5DD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
 		E930A5612DC6D120BE040AD17C6D1BCD /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
 		EC9B34262AED632D7EFB49804337648E /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0EE714DCB389EEA9108C1E0C78CF038 /* GNestedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33857D9E4D308BD170F76A626D955572 /* GNestedScrollView.m */; };
-		F4C6A17F7E2EBD44D88D5D7649E8A923 /* GNestedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02274FED04B4C6F8D456D52B1BAFE089 /* GNestedScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3B13C4580C65DF7C78B2EA5F07F4E1E /* NSObject+GFBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CB8A0D04480D94BBEABAFFD4115BCA /* NSObject+GFBKVOController.m */; };
 		F6D1C960368EB1E067ABD0BFF707FC56 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
-		FD048734A66993C1F96BD3386489E102 /* NSObject+GFBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = FDAB0C872EC4CEFFE57243F2ED9525C3 /* NSObject+GFBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDBAA012AB7F55447447FD0E993EB705 /* GFBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 482A23356226D7AC03A018A37D3030E2 /* GFBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		406E389B39186FE5C7382C54DACC12C0 /* PBXContainerItemProxy */ = {
+		2859F71F35ECD18EAC6AD82ED1CAC955 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 782596E119698294593D6F42339D66E6;
-			remoteInfo = GStackScrollView;
+			remoteGlobalIDString = CF125B91E51027F75820E2B4C560D405;
+			remoteInfo = GNestedScrollView;
 		};
-		C05B935D5AA656319B0EBFD6F5EDEDD7 /* PBXContainerItemProxy */ = {
+		6141BA8427D2D410846D0ABC93195470 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		E4F797D42B6924DDD80929851FCE1B3B /* PBXContainerItemProxy */ = {
+		950EA2BBA73EDE162206FEC87AFFB204 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5F1E3C4F86ABD960C447B611562682B6;
-			remoteInfo = "Pods-GStackScrollView_Example";
+			remoteGlobalIDString = 0E407A402A79677FAE24777DFD8C87BD;
+			remoteInfo = "Pods-GNestedScrollView_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02274FED04B4C6F8D456D52B1BAFE089 /* GNestedScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNestedScrollView.h; path = GStackScrollView/Classes/GNestedScrollView.h; sourceTree = "<group>"; };
 		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		058763D3773504A396999270CF529BC2 /* GNestedScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNestedScrollView-umbrella.h"; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		17094B833A6962EA1EF85A5C4FB42FA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0D4F75EAFB523109072A079A871207D7 /* Pods-GNestedScrollView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNestedScrollView_Example-Info.plist"; sourceTree = "<group>"; };
+		0E90519D5E719C73016C2C7C8EE3DCE7 /* Pods-GNestedScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNestedScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
+		19D3C0B183D59D8F46962BD2C400477F /* Pods-GNestedScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNestedScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EC1D8EE38C7A64C5EEB7B40C42BE57 /* Pods-GNestedScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNestedScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2B2CE97C58270951BD977DCF18913976 /* GNestedScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GNestedScrollView.m; path = GNestedScrollView/Classes/GNestedScrollView.m; sourceTree = "<group>"; };
 		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		331D42C5344427A5224D04C77FD0E314 /* Pods-GStackScrollView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GStackScrollView_Tests-Info.plist"; sourceTree = "<group>"; };
-		33857D9E4D308BD170F76A626D955572 /* GNestedScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GNestedScrollView.m; path = GStackScrollView/Classes/GNestedScrollView.m; sourceTree = "<group>"; };
 		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3A58964E164083FE3741B95B69636353 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3BE60823F2AD82BEE779B2805681353E /* GStackScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GStackScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E07EC03530B3148937BBB5976B84D7 /* GNestedScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNestedScrollView.debug.xcconfig; sourceTree = "<group>"; };
 		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		3E806D487BD7879DE8A99A8DAA39CC0D /* Pods_GStackScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GStackScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4098B684C20B1D79AF633660F50AED6C /* GStackScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GStackScrollView.release.xcconfig; sourceTree = "<group>"; };
+		3ECD0149FD2A70258B2EA2BAE3EE52FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4073C512DB47557169CEF4DA4A05F158 /* Pods-GNestedScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNestedScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		45C74E8B29FAE00B3D739D7E58A3ED5F /* GStackScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GStackScrollView-Info.plist"; sourceTree = "<group>"; };
 		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		482A23356226D7AC03A018A37D3030E2 /* GFBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GFBKVOController.h; sourceTree = "<group>"; };
 		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		4FD8B34A6D307648CA2C78E80C1F2F8E /* GNestedScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GNestedScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		506E6D6735E88126BB9AB6215953450A /* GNestedScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNestedScrollView-dummy.m"; sourceTree = "<group>"; };
+		54075A85D02C4321571452337FE878FB /* Pods-GNestedScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNestedScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		5AE45F48407F9F14BD6EB94DDB8F38F1 /* Pods-GNestedScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNestedScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B4BA2DE53002FAB54A715A1666D1EB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		615DAEE248639B801554C1D83097E854 /* Pods-GStackScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GStackScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6311255432AB456686A6266988C0ADC2 /* GStackScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GStackScrollView-dummy.m"; sourceTree = "<group>"; };
-		6750788514E8B869858D045FF7AB710A /* Pods-GStackScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GStackScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		631E89C05012EBCCB16C178D08CA7AEC /* Pods-GNestedScrollView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNestedScrollView_Tests-Info.plist"; sourceTree = "<group>"; };
+		658946F5FD3822D9E925AE980E56C4BB /* GNestedScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNestedScrollView.release.xcconfig; sourceTree = "<group>"; };
+		6ABD20900F92EDB1883A7E8369983BF6 /* Pods-GNestedScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNestedScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BABB444DD0C63E1F87C581CD96BE3A8 /* GNestedScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNestedScrollView.h; path = GNestedScrollView/Classes/GNestedScrollView.h; sourceTree = "<group>"; };
 		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		6F9DB197BE539C940CB82195368F29AE /* Pods_GStackScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GStackScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FCE727EFAE7C239FDBF5561CA8E4168 /* Pods-GStackScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GStackScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		75F6E783F431D5BD0E0C1E4B98314740 /* NSObject+GFBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GFBKVOController.m"; sourceTree = "<group>"; };
-		7C9DC52ACFC322705911FA46A469F8B4 /* Pods-GStackScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GStackScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
-		7E74E01396AEAAF0B3C3A304C42DA983 /* Pods-GStackScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GStackScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8095DE3CFFB0E1B9EA0E3C7DDFAC7DC4 /* Pods-GStackScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GStackScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		811A725FC4415888E29A51F781A5D4D1 /* Pods-GStackScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GStackScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		75543E3804EE74DE2BD64F2504497681 /* GNestedScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GNestedScrollView.modulemap; sourceTree = "<group>"; };
+		7D96D2ECAF26BAFC1743278ED6B01914 /* Pods_GNestedScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNestedScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8324C21671476ECC4B593293B27B629E /* Pods-GNestedScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNestedScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		84DB8CEE0EF874851515CDFF6BA909EB /* NSObject+GFBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+GFBKVOController.h"; sourceTree = "<group>"; };
 		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8A5E19B4741E0BA49357222CD53A1564 /* Pods_GNestedScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNestedScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		8F91CCFE784449165EFC993B17C25255 /* Pods-GNestedScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNestedScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		97AAD3B0FC6B9E5A46F161D8CCBC56D9 /* Pods-GStackScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GStackScrollView_Tests.modulemap"; sourceTree = "<group>"; };
-		9B854C70768ED9EE4357350354843292 /* Pods-GStackScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GStackScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B663EC2FBF3A649BAD677EFD9BE6319 /* Pods-GNestedScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNestedScrollView_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4D675532628A3D38A3B062D3225B53A /* Pods-GStackScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GStackScrollView_Example-dummy.m"; sourceTree = "<group>"; };
+		A0E02667AB3DBD37757207CB7F293BDD /* Pods-GNestedScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNestedScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A1CB8A0D04480D94BBEABAFFD4115BCA /* NSObject+GFBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GFBKVOController.m"; sourceTree = "<group>"; };
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		BB40D455BCC9EB4C0839D98BCD126A4E /* Pods-GStackScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GStackScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BD945B0F1A3CB965EE2227E6944C883C /* Pods-GStackScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GStackScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
 		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		C4211F65AD74418B87EE18D1294E34C3 /* GStackScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GStackScrollView-prefix.pch"; sourceTree = "<group>"; };
-		C4F6DA4E09B38867CD2A7F7558C780C1 /* Pods-GStackScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GStackScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CC21A77A157756B35C10EC5F639AA827 /* GStackScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GStackScrollView.debug.xcconfig; sourceTree = "<group>"; };
+		CCF5ABF15C10D59F45DF21C3B4A1F5EB /* GNestedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNestedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		D1D980DCAE6CA68302E2B966611A0F0D /* Pods-GStackScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GStackScrollView_Example.modulemap"; sourceTree = "<group>"; };
-		D20D690B16B70C1EBDCB69D202325582 /* GStackScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GStackScrollView-umbrella.h"; sourceTree = "<group>"; };
-		D760E8463ECDEB7CE3C96C3C3FF660C0 /* GStackScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GStackScrollView.modulemap; sourceTree = "<group>"; };
+		D2640AEE5084C1E2CE63D20A90824B9A /* Pods-GNestedScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNestedScrollView_Example.modulemap"; sourceTree = "<group>"; };
+		D4FB625E8BC0CFB1B4C0C4EDC271A068 /* Pods-GNestedScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNestedScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E64456770BE46E90F4783B79CC77F280 /* GFBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GFBKVOController.m; sourceTree = "<group>"; };
 		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		EF6DBA7F1C7175EE5101FD4BA4825712 /* GStackScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GStackScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F114A642F96BC7179AA711C90458D5E9 /* GFBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GFBKVOController.m; sourceTree = "<group>"; };
+		EE8E268D42C95E3184A915439CA39A32 /* GNestedScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GNestedScrollView-Info.plist"; sourceTree = "<group>"; };
 		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		F5B6C1DFBB57D2A3546349A58283BE86 /* Pods-GStackScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GStackScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F937A1DC01B606222253AC842E39EB2A /* Pods-GStackScrollView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GStackScrollView_Example-Info.plist"; sourceTree = "<group>"; };
-		FDAB0C872EC4CEFFE57243F2ED9525C3 /* NSObject+GFBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+GFBKVOController.h"; sourceTree = "<group>"; };
+		F46FAC05CF3EAD6FB6CDEBB988CDBF50 /* Pods-GNestedScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNestedScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F66CFFCEC91D3E56BC37198E867C6B5F /* GNestedScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNestedScrollView-prefix.pch"; sourceTree = "<group>"; };
+		F7C390885512238EADE765CCFD60B199 /* Pods-GNestedScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNestedScrollView_Tests.modulemap"; sourceTree = "<group>"; };
+		FEFC65F037CF1A752669B8DEC6C1D514 /* GFBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GFBKVOController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		127E6002906782029BA9103D1462A900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A3B46415B0E401B64F0F79D477D172 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12A799DC8ABB2C283ADDDED4421A5EAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,27 +170,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34F5D33124140E261519E4C5F152477C /* Frameworks */ = {
+		7EBF2361D8B327AE71DB0A828F2CA990 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D60DD0DC90EA9423B44ECC5EB4648AB7 /* Foundation.framework in Frameworks */,
+				1D9A2F8931B8C166FF462541DF6FC627 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41DEFBD9877D446BA53D3A3564941DED /* Frameworks */ = {
+		CF29BE94EB70FB6ABB20FF15DE941EC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CFB383E677A63FC4AC335F8A4A78AD9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81B84578B935DD70D8247D5FE6FD69AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57D85985664EF31E7FC3F6FF0E23E1EE /* Foundation.framework in Frameworks */,
+				309EECC01B073F4D46803994454AEE96 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,12 +222,43 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		0DCDA12BBBD44F8DAB3A7EDEB96A1B66 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4FD8B34A6D307648CA2C78E80C1F2F8E /* GNestedScrollView.podspec */,
+				5B4BA2DE53002FAB54A715A1666D1EB7 /* LICENSE */,
+				3ECD0149FD2A70258B2EA2BAE3EE52FD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0FA7B964032960DE44F1A1C86AA81B4C /* GNestedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				6BABB444DD0C63E1F87C581CD96BE3A8 /* GNestedScrollView.h */,
+				2B2CE97C58270951BD977DCF18913976 /* GNestedScrollView.m */,
+				54AE3A64B479F13BA5636772B8298BB7 /* KVOController */,
+				0DCDA12BBBD44F8DAB3A7EDEB96A1B66 /* Pod */,
+				6792A2965F1CE7E1B12A6392C8DF98B7 /* Support Files */,
+			);
+			name = GNestedScrollView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D9040B7E8D99C1BD829080D7585577E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA7B964032960DE44F1A1C86AA81B4C /* GNestedScrollView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
@@ -239,69 +270,47 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		2C5631331DD0AFF0E673098401C8A4E5 /* KVOController */ = {
+		54AE3A64B479F13BA5636772B8298BB7 /* KVOController */ = {
 			isa = PBXGroup;
 			children = (
-				482A23356226D7AC03A018A37D3030E2 /* GFBKVOController.h */,
-				F114A642F96BC7179AA711C90458D5E9 /* GFBKVOController.m */,
-				FDAB0C872EC4CEFFE57243F2ED9525C3 /* NSObject+GFBKVOController.h */,
-				75F6E783F431D5BD0E0C1E4B98314740 /* NSObject+GFBKVOController.m */,
+				FEFC65F037CF1A752669B8DEC6C1D514 /* GFBKVOController.h */,
+				E64456770BE46E90F4783B79CC77F280 /* GFBKVOController.m */,
+				84DB8CEE0EF874851515CDFF6BA909EB /* NSObject+GFBKVOController.h */,
+				A1CB8A0D04480D94BBEABAFFD4115BCA /* NSObject+GFBKVOController.m */,
 			);
 			name = KVOController;
-			path = GStackScrollView/Classes/KVOController;
+			path = GNestedScrollView/Classes/KVOController;
 			sourceTree = "<group>";
 		};
-		5017D8625E0BB732211E60D3F0005090 /* Support Files */ = {
+		6792A2965F1CE7E1B12A6392C8DF98B7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D760E8463ECDEB7CE3C96C3C3FF660C0 /* GStackScrollView.modulemap */,
-				6311255432AB456686A6266988C0ADC2 /* GStackScrollView-dummy.m */,
-				45C74E8B29FAE00B3D739D7E58A3ED5F /* GStackScrollView-Info.plist */,
-				C4211F65AD74418B87EE18D1294E34C3 /* GStackScrollView-prefix.pch */,
-				D20D690B16B70C1EBDCB69D202325582 /* GStackScrollView-umbrella.h */,
-				CC21A77A157756B35C10EC5F639AA827 /* GStackScrollView.debug.xcconfig */,
-				4098B684C20B1D79AF633660F50AED6C /* GStackScrollView.release.xcconfig */,
+				75543E3804EE74DE2BD64F2504497681 /* GNestedScrollView.modulemap */,
+				506E6D6735E88126BB9AB6215953450A /* GNestedScrollView-dummy.m */,
+				EE8E268D42C95E3184A915439CA39A32 /* GNestedScrollView-Info.plist */,
+				F66CFFCEC91D3E56BC37198E867C6B5F /* GNestedScrollView-prefix.pch */,
+				058763D3773504A396999270CF529BC2 /* GNestedScrollView-umbrella.h */,
+				37E07EC03530B3148937BBB5976B84D7 /* GNestedScrollView.debug.xcconfig */,
+				658946F5FD3822D9E925AE980E56C4BB /* GNestedScrollView.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GStackScrollView";
+			path = "Example/Pods/Target Support Files/GNestedScrollView";
 			sourceTree = "<group>";
 		};
-		533CA87585C45E1F83C76D3D9C21D365 /* Development Pods */ = {
+		71B7BD5FDEDB5C385AA0B7B40C79AF10 /* Pods-GNestedScrollView_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DAAFD5208B38CE3589707C53CB1523A9 /* GStackScrollView */,
+				F7C390885512238EADE765CCFD60B199 /* Pods-GNestedScrollView_Tests.modulemap */,
+				4073C512DB47557169CEF4DA4A05F158 /* Pods-GNestedScrollView_Tests-acknowledgements.markdown */,
+				6ABD20900F92EDB1883A7E8369983BF6 /* Pods-GNestedScrollView_Tests-acknowledgements.plist */,
+				F46FAC05CF3EAD6FB6CDEBB988CDBF50 /* Pods-GNestedScrollView_Tests-dummy.m */,
+				631E89C05012EBCCB16C178D08CA7AEC /* Pods-GNestedScrollView_Tests-Info.plist */,
+				54075A85D02C4321571452337FE878FB /* Pods-GNestedScrollView_Tests-umbrella.h */,
+				D4FB625E8BC0CFB1B4C0C4EDC271A068 /* Pods-GNestedScrollView_Tests.debug.xcconfig */,
+				8F91CCFE784449165EFC993B17C25255 /* Pods-GNestedScrollView_Tests.release.xcconfig */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		575C923F5A74F2F616A238D8AE493977 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B6AA8F59A5467E037718A556C37D6A2A /* Pods-GStackScrollView_Example */,
-				F5E8364C069E40FBDBEECAD72B8B61DB /* Pods-GStackScrollView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		63237D7F07FD731B8933D92E1B04D079 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3BE60823F2AD82BEE779B2805681353E /* GStackScrollView.framework */,
-				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
-				6F9DB197BE539C940CB82195368F29AE /* Pods_GStackScrollView_Example.framework */,
-				3E806D487BD7879DE8A99A8DAA39CC0D /* Pods_GStackScrollView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		661556A59F6FA743B739B77B3FE30BA1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EF6DBA7F1C7175EE5101FD4BA4825712 /* GStackScrollView.podspec */,
-				3A58964E164083FE3741B95B69636353 /* LICENSE */,
-				17094B833A6962EA1EF85A5C4FB42FA7 /* README.md */,
-			);
-			name = Pod;
+			name = "Pods-GNestedScrollView_Tests";
+			path = "Target Support Files/Pods-GNestedScrollView_Tests";
 			sourceTree = "<group>";
 		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
@@ -312,21 +321,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B6AA8F59A5467E037718A556C37D6A2A /* Pods-GStackScrollView_Example */ = {
+		8BFA41F768106A2A825A4674195C0E52 /* Pods-GNestedScrollView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				D1D980DCAE6CA68302E2B966611A0F0D /* Pods-GStackScrollView_Example.modulemap */,
-				8095DE3CFFB0E1B9EA0E3C7DDFAC7DC4 /* Pods-GStackScrollView_Example-acknowledgements.markdown */,
-				811A725FC4415888E29A51F781A5D4D1 /* Pods-GStackScrollView_Example-acknowledgements.plist */,
-				A4D675532628A3D38A3B062D3225B53A /* Pods-GStackScrollView_Example-dummy.m */,
-				615DAEE248639B801554C1D83097E854 /* Pods-GStackScrollView_Example-frameworks.sh */,
-				F937A1DC01B606222253AC842E39EB2A /* Pods-GStackScrollView_Example-Info.plist */,
-				7C9DC52ACFC322705911FA46A469F8B4 /* Pods-GStackScrollView_Example-umbrella.h */,
-				7E74E01396AEAAF0B3C3A304C42DA983 /* Pods-GStackScrollView_Example.debug.xcconfig */,
-				C4F6DA4E09B38867CD2A7F7558C780C1 /* Pods-GStackScrollView_Example.release.xcconfig */,
+				D2640AEE5084C1E2CE63D20A90824B9A /* Pods-GNestedScrollView_Example.modulemap */,
+				5AE45F48407F9F14BD6EB94DDB8F38F1 /* Pods-GNestedScrollView_Example-acknowledgements.markdown */,
+				19D3C0B183D59D8F46962BD2C400477F /* Pods-GNestedScrollView_Example-acknowledgements.plist */,
+				9B663EC2FBF3A649BAD677EFD9BE6319 /* Pods-GNestedScrollView_Example-dummy.m */,
+				25EC1D8EE38C7A64C5EEB7B40C42BE57 /* Pods-GNestedScrollView_Example-frameworks.sh */,
+				0D4F75EAFB523109072A079A871207D7 /* Pods-GNestedScrollView_Example-Info.plist */,
+				0E90519D5E719C73016C2C7C8EE3DCE7 /* Pods-GNestedScrollView_Example-umbrella.h */,
+				A0E02667AB3DBD37757207CB7F293BDD /* Pods-GNestedScrollView_Example.debug.xcconfig */,
+				8324C21671476ECC4B593293B27B629E /* Pods-GNestedScrollView_Example.release.xcconfig */,
 			);
-			name = "Pods-GStackScrollView_Example";
-			path = "Target Support Files/Pods-GStackScrollView_Example";
+			name = "Pods-GNestedScrollView_Example";
+			path = "Target Support Files/Pods-GNestedScrollView_Example";
+			sourceTree = "<group>";
+		};
+		91BFDDF4B8EE2F37D05B2DEE3155B376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF5ABF15C10D59F45DF21C3B4A1F5EB /* GNestedScrollView.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				8A5E19B4741E0BA49357222CD53A1564 /* Pods_GNestedScrollView_Example.framework */,
+				7D96D2ECAF26BAFC1743278ED6B01914 /* Pods_GNestedScrollView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99DDC1C2623236A399948004DCFE4D93 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BFA41F768106A2A825A4674195C0E52 /* Pods-GNestedScrollView_Example */,
+				71B7BD5FDEDB5C385AA0B7B40C79AF10 /* Pods-GNestedScrollView_Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
@@ -348,41 +377,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				533CA87585C45E1F83C76D3D9C21D365 /* Development Pods */,
+				1D9040B7E8D99C1BD829080D7585577E /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
-				63237D7F07FD731B8933D92E1B04D079 /* Products */,
-				575C923F5A74F2F616A238D8AE493977 /* Targets Support Files */,
+				91BFDDF4B8EE2F37D05B2DEE3155B376 /* Products */,
+				99DDC1C2623236A399948004DCFE4D93 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DAAFD5208B38CE3589707C53CB1523A9 /* GStackScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				02274FED04B4C6F8D456D52B1BAFE089 /* GNestedScrollView.h */,
-				33857D9E4D308BD170F76A626D955572 /* GNestedScrollView.m */,
-				2C5631331DD0AFF0E673098401C8A4E5 /* KVOController */,
-				661556A59F6FA743B739B77B3FE30BA1 /* Pod */,
-				5017D8625E0BB732211E60D3F0005090 /* Support Files */,
-			);
-			name = GStackScrollView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F5E8364C069E40FBDBEECAD72B8B61DB /* Pods-GStackScrollView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				97AAD3B0FC6B9E5A46F161D8CCBC56D9 /* Pods-GStackScrollView_Tests.modulemap */,
-				6FCE727EFAE7C239FDBF5561CA8E4168 /* Pods-GStackScrollView_Tests-acknowledgements.markdown */,
-				BB40D455BCC9EB4C0839D98BCD126A4E /* Pods-GStackScrollView_Tests-acknowledgements.plist */,
-				BD945B0F1A3CB965EE2227E6944C883C /* Pods-GStackScrollView_Tests-dummy.m */,
-				331D42C5344427A5224D04C77FD0E314 /* Pods-GStackScrollView_Tests-Info.plist */,
-				6750788514E8B869858D045FF7AB710A /* Pods-GStackScrollView_Tests-umbrella.h */,
-				9B854C70768ED9EE4357350354843292 /* Pods-GStackScrollView_Tests.debug.xcconfig */,
-				F5B6C1DFBB57D2A3546349A58283BE86 /* Pods-GStackScrollView_Tests.release.xcconfig */,
-			);
-			name = "Pods-GStackScrollView_Tests";
-			path = "Target Support Files/Pods-GStackScrollView_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,53 +411,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88647A51810FC813BBD6D19CA2B303AA /* Headers */ = {
+		6A32A0FBEDB223B8D3855479D5A9E022 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBAA012AB7F55447447FD0E993EB705 /* GFBKVOController.h in Headers */,
-				F4C6A17F7E2EBD44D88D5D7649E8A923 /* GNestedScrollView.h in Headers */,
-				D271416FE3F855C062ED63C2F910C8EB /* GStackScrollView-umbrella.h in Headers */,
-				FD048734A66993C1F96BD3386489E102 /* NSObject+GFBKVOController.h in Headers */,
+				CF7780BDE6304CC40979A5A04002E4A0 /* Pods-GNestedScrollView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9081AFD46A88BACABB167CD4C0AF8CF6 /* Headers */ = {
+		C1BDB3F15F6ED5F42AE42DE093E976C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F37B8FB70C69C1CE06E54048B262615 /* Pods-GStackScrollView_Tests-umbrella.h in Headers */,
+				6D46D2168FF6F7B9A6079CF2E0D903E8 /* GFBKVOController.h in Headers */,
+				CBCA89D74078861B37E9FF0DBCCB6CB2 /* GNestedScrollView.h in Headers */,
+				7213C7DA48FD087FA411E3CC37CE96AA /* GNestedScrollView-umbrella.h in Headers */,
+				AD46DF7D9E00C31D27777677AAD5ADE8 /* NSObject+GFBKVOController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6B3F50215AE594402EC054FAD57A754 /* Headers */ = {
+		DE6BA4C194146BC9B77D0EE1EFDEB66B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				150264FDAC6C432B7C22F06810B171A8 /* Pods-GStackScrollView_Example-umbrella.h in Headers */,
+				41B4B60070D4B8D99DD48F5E79BAA290 /* Pods-GNestedScrollView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1B532BCA0E7D873F2B1B5E210EC4DE69 /* Pods-GStackScrollView_Tests */ = {
+		0E407A402A79677FAE24777DFD8C87BD /* Pods-GNestedScrollView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36FA3882E61543BD78B47DD0EFB68624 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Tests" */;
+			buildConfigurationList = FA7E77AB19396D15F5EA3E0F3CB568BE /* Build configuration list for PBXNativeTarget "Pods-GNestedScrollView_Example" */;
 			buildPhases = (
-				9081AFD46A88BACABB167CD4C0AF8CF6 /* Headers */,
-				896C33F2EABE6CAB19A7B62CD7C43C95 /* Sources */,
-				41DEFBD9877D446BA53D3A3564941DED /* Frameworks */,
-				F7BFAD56032D858F5027EAFC41D57E58 /* Resources */,
+				DE6BA4C194146BC9B77D0EE1EFDEB66B /* Headers */,
+				DE02395662EF5008781D9B514813399C /* Sources */,
+				7EBF2361D8B327AE71DB0A828F2CA990 /* Frameworks */,
+				4885987C705FC754214AD34E1F7E368C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BD29B6A0C0B5DAE82CB75A1D0A381FF8 /* PBXTargetDependency */,
+				74457C24FBB07E7B5F79E09407775165 /* PBXTargetDependency */,
+				543C0A9680C8B32C3BD8F45A48499766 /* PBXTargetDependency */,
 			);
-			name = "Pods-GStackScrollView_Tests";
-			productName = Pods_GStackScrollView_Tests;
-			productReference = 3E806D487BD7879DE8A99A8DAA39CC0D /* Pods_GStackScrollView_Tests.framework */;
+			name = "Pods-GNestedScrollView_Example";
+			productName = Pods_GNestedScrollView_Example;
+			productReference = 8A5E19B4741E0BA49357222CD53A1564 /* Pods_GNestedScrollView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
@@ -478,42 +479,41 @@
 			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5F1E3C4F86ABD960C447B611562682B6 /* Pods-GStackScrollView_Example */ = {
+		9F967856AA0E85A2FEE108635A919314 /* Pods-GNestedScrollView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C619ABB0A807682D782B08CD2743FB3 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Example" */;
+			buildConfigurationList = 225C149AC80AE640547B093C1DE3B1C9 /* Build configuration list for PBXNativeTarget "Pods-GNestedScrollView_Tests" */;
 			buildPhases = (
-				B6B3F50215AE594402EC054FAD57A754 /* Headers */,
-				F88BE9214EFE451EA48ADABBC3511310 /* Sources */,
-				81B84578B935DD70D8247D5FE6FD69AC /* Frameworks */,
-				DC5BCEAA344D3661DC5D7003387DE193 /* Resources */,
+				6A32A0FBEDB223B8D3855479D5A9E022 /* Headers */,
+				2AFD391F4FB62EB0746FEC62895143BC /* Sources */,
+				CF29BE94EB70FB6ABB20FF15DE941EC6 /* Frameworks */,
+				3AA49690B9CAE7763AC17B98F4EBFC21 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BDAC8E8315B77B6F61742CAF63FAF2BA /* PBXTargetDependency */,
-				DC8B0176E67EFB57709E890064F86FD5 /* PBXTargetDependency */,
+				31A760A4679B220A3173402AD8B604A9 /* PBXTargetDependency */,
 			);
-			name = "Pods-GStackScrollView_Example";
-			productName = Pods_GStackScrollView_Example;
-			productReference = 6F9DB197BE539C940CB82195368F29AE /* Pods_GStackScrollView_Example.framework */;
+			name = "Pods-GNestedScrollView_Tests";
+			productName = Pods_GNestedScrollView_Tests;
+			productReference = 7D96D2ECAF26BAFC1743278ED6B01914 /* Pods_GNestedScrollView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		782596E119698294593D6F42339D66E6 /* GStackScrollView */ = {
+		CF125B91E51027F75820E2B4C560D405 /* GNestedScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED2C4F69B222727EF082E4C0C8605810 /* Build configuration list for PBXNativeTarget "GStackScrollView" */;
+			buildConfigurationList = 9BF71C2B0A94C3F74C872199186C5C5C /* Build configuration list for PBXNativeTarget "GNestedScrollView" */;
 			buildPhases = (
-				88647A51810FC813BBD6D19CA2B303AA /* Headers */,
-				919756C82615487A0266BED333CEBA49 /* Sources */,
-				34F5D33124140E261519E4C5F152477C /* Frameworks */,
-				80D07AEB411D494EAE4817AC38D53BA9 /* Resources */,
+				C1BDB3F15F6ED5F42AE42DE093E976C3 /* Headers */,
+				8855BB80CA86C9E5187A9C6BFB8C9FF5 /* Sources */,
+				127E6002906782029BA9103D1462A900 /* Frameworks */,
+				68BC08F77F19330C1D73E14E0AA23A74 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GStackScrollView;
-			productName = GStackScrollView;
-			productReference = 3BE60823F2AD82BEE779B2805681353E /* GStackScrollView.framework */;
+			name = GNestedScrollView;
+			productName = GNestedScrollView;
+			productReference = CCF5ABF15C10D59F45DF21C3B4A1F5EB /* GNestedScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -534,27 +534,34 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 63237D7F07FD731B8933D92E1B04D079 /* Products */;
+			productRefGroup = 91BFDDF4B8EE2F37D05B2DEE3155B376 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				782596E119698294593D6F42339D66E6 /* GStackScrollView */,
+				CF125B91E51027F75820E2B4C560D405 /* GNestedScrollView */,
 				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
-				5F1E3C4F86ABD960C447B611562682B6 /* Pods-GStackScrollView_Example */,
-				1B532BCA0E7D873F2B1B5E210EC4DE69 /* Pods-GStackScrollView_Tests */,
+				0E407A402A79677FAE24777DFD8C87BD /* Pods-GNestedScrollView_Example */,
+				9F967856AA0E85A2FEE108635A919314 /* Pods-GNestedScrollView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80D07AEB411D494EAE4817AC38D53BA9 /* Resources */ = {
+		3AA49690B9CAE7763AC17B98F4EBFC21 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC5BCEAA344D3661DC5D7003387DE193 /* Resources */ = {
+		4885987C705FC754214AD34E1F7E368C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BC08F77F19330C1D73E14E0AA23A74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -568,32 +575,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7BFAD56032D858F5027EAFC41D57E58 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		896C33F2EABE6CAB19A7B62CD7C43C95 /* Sources */ = {
+		2AFD391F4FB62EB0746FEC62895143BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844F2604348698A38E1AC599122CC628 /* Pods-GStackScrollView_Tests-dummy.m in Sources */,
+				764B6C804669504BAB1E9171294973A1 /* Pods-GNestedScrollView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		919756C82615487A0266BED333CEBA49 /* Sources */ = {
+		8855BB80CA86C9E5187A9C6BFB8C9FF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048ECEC84F02D5665B3CD859E2FE7DFA /* GFBKVOController.m in Sources */,
-				F0EE714DCB389EEA9108C1E0C78CF038 /* GNestedScrollView.m in Sources */,
-				BFCFA0294F8F849DBBC4001CB9D6DE18 /* GStackScrollView-dummy.m in Sources */,
-				731F29F10B8212C1812A4128DC89F3EA /* NSObject+GFBKVOController.m in Sources */,
+				CADF2B8B11B508040EDAB4020ACA01E1 /* GFBKVOController.m in Sources */,
+				AAB41816647CC65C04BA57C74137D44F /* GNestedScrollView.m in Sources */,
+				CC12204E678F07B430B3FAAB10850E34 /* GNestedScrollView-dummy.m in Sources */,
+				F3B13C4580C65DF7C78B2EA5F07F4E1E /* NSObject+GFBKVOController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,77 +615,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F88BE9214EFE451EA48ADABBC3511310 /* Sources */ = {
+		DE02395662EF5008781D9B514813399C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				548F4C671B5DB259AAF25F70165BB9CB /* Pods-GStackScrollView_Example-dummy.m in Sources */,
+				191C3F3BFA74DEDD42FFFD65A48A5A93 /* Pods-GNestedScrollView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BD29B6A0C0B5DAE82CB75A1D0A381FF8 /* PBXTargetDependency */ = {
+		31A760A4679B220A3173402AD8B604A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-GStackScrollView_Example";
-			target = 5F1E3C4F86ABD960C447B611562682B6 /* Pods-GStackScrollView_Example */;
-			targetProxy = E4F797D42B6924DDD80929851FCE1B3B /* PBXContainerItemProxy */;
+			name = "Pods-GNestedScrollView_Example";
+			target = 0E407A402A79677FAE24777DFD8C87BD /* Pods-GNestedScrollView_Example */;
+			targetProxy = 950EA2BBA73EDE162206FEC87AFFB204 /* PBXContainerItemProxy */;
 		};
-		BDAC8E8315B77B6F61742CAF63FAF2BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GStackScrollView;
-			target = 782596E119698294593D6F42339D66E6 /* GStackScrollView */;
-			targetProxy = 406E389B39186FE5C7382C54DACC12C0 /* PBXContainerItemProxy */;
-		};
-		DC8B0176E67EFB57709E890064F86FD5 /* PBXTargetDependency */ = {
+		543C0A9680C8B32C3BD8F45A48499766 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = C05B935D5AA656319B0EBFD6F5EDEDD7 /* PBXContainerItemProxy */;
+			targetProxy = 6141BA8427D2D410846D0ABC93195470 /* PBXContainerItemProxy */;
+		};
+		74457C24FBB07E7B5F79E09407775165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNestedScrollView;
+			target = CF125B91E51027F75820E2B4C560D405 /* GNestedScrollView */;
+			targetProxy = 2859F71F35ECD18EAC6AD82ED1CAC955 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BDD97280F1B4B278C5E5724257D6BCE /* Debug */ = {
+		0CF058A578D3612B46A6F12F7E9C380C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC21A77A157756B35C10EC5F639AA827 /* GStackScrollView.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/GStackScrollView/GStackScrollView-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/GStackScrollView/GStackScrollView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GStackScrollView/GStackScrollView.modulemap";
-				PRODUCT_MODULE_NAME = GStackScrollView;
-				PRODUCT_NAME = GStackScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		27CAEA71E6562A3EF3D974B56D8E1AE2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5B6C1DFBB57D2A3546349A58283BE86 /* Pods-GStackScrollView_Tests.release.xcconfig */;
+			baseConfigurationReference = 8324C21671476ECC4B593293B27B629E /* Pods-GNestedScrollView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -700,12 +664,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GNestedScrollView_Example/Pods-GNestedScrollView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-GNestedScrollView_Example/Pods-GNestedScrollView_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -720,7 +684,151 @@
 			};
 			name = Release;
 		};
-		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+		297D3DD38462B54FD1FFD4303EB4ED37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658946F5FD3822D9E925AE980E56C4BB /* GNestedScrollView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GNestedScrollView/GNestedScrollView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GNestedScrollView/GNestedScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GNestedScrollView/GNestedScrollView.modulemap";
+				PRODUCT_MODULE_NAME = GNestedScrollView;
+				PRODUCT_NAME = GNestedScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DA5D9442A727F4863F9E6D81C1E1E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4FB625E8BC0CFB1B4C0C4EDC271A068 /* Pods-GNestedScrollView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNestedScrollView_Tests/Pods-GNestedScrollView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNestedScrollView_Tests/Pods-GNestedScrollView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FA069F22526EC50AA63AF288A5A39F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BDFE0A199EAE056F7672337F4EC2D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E02667AB3DBD37757207CB7F293BDD /* Pods-GNestedScrollView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNestedScrollView_Example/Pods-GNestedScrollView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNestedScrollView_Example/Pods-GNestedScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -773,7 +881,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -786,116 +894,7 @@
 			};
 			name = Debug;
 		};
-		2FA069F22526EC50AA63AF288A5A39F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		45D90C96AB2A7D21CE08BBC4693840F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4098B684C20B1D79AF633660F50AED6C /* GStackScrollView.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/GStackScrollView/GStackScrollView-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/GStackScrollView/GStackScrollView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GStackScrollView/GStackScrollView.modulemap";
-				PRODUCT_MODULE_NAME = GStackScrollView;
-				PRODUCT_NAME = GStackScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		53DAD5F006A2157C92C8FF4530978519 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4F6DA4E09B38867CD2A7F7558C780C1 /* Pods-GStackScrollView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-GStackScrollView_Example/Pods-GStackScrollView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GStackScrollView_Example/Pods-GStackScrollView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -945,7 +944,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -956,11 +955,10 @@
 			};
 			name = Release;
 		};
-		AB07812B4B2CE568D1E661E6DED3C6A2 /* Debug */ = {
+		BBDEA501E8E9B4B40975D24254A3D79B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E74E01396AEAAF0B3C3A304C42DA983 /* Pods-GStackScrollView_Example.debug.xcconfig */;
+			baseConfigurationReference = 37E07EC03530B3148937BBB5976B84D7 /* GNestedScrollView.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -973,19 +971,20 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-GStackScrollView_Example/Pods-GStackScrollView_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GNestedScrollView/GNestedScrollView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GNestedScrollView/GNestedScrollView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GStackScrollView_Example/Pods-GStackScrollView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/GNestedScrollView/GNestedScrollView.modulemap";
+				PRODUCT_MODULE_NAME = GNestedScrollView;
+				PRODUCT_NAME = GNestedScrollView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1011,7 +1010,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
 				PRODUCT_MODULE_NAME = Masonry;
@@ -1028,9 +1027,9 @@
 			};
 			name = Release;
 		};
-		E2F4454A34D4947AC617906F775BB38B /* Debug */ = {
+		E25BE13F02A8909D0533D05505CF793F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B854C70768ED9EE4357350354843292 /* Pods-GStackScrollView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8F91CCFE784449165EFC993B17C25255 /* Pods-GNestedScrollView_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -1045,12 +1044,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GNestedScrollView_Tests/Pods-GNestedScrollView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GStackScrollView_Tests/Pods-GStackScrollView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-GNestedScrollView_Tests/Pods-GNestedScrollView_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1059,19 +1058,20 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36FA3882E61543BD78B47DD0EFB68624 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Tests" */ = {
+		225C149AC80AE640547B093C1DE3B1C9 /* Build configuration list for PBXNativeTarget "Pods-GNestedScrollView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2F4454A34D4947AC617906F775BB38B /* Debug */,
-				27CAEA71E6562A3EF3D974B56D8E1AE2 /* Release */,
+				2DA5D9442A727F4863F9E6D81C1E1E9C /* Debug */,
+				E25BE13F02A8909D0533D05505CF793F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1079,17 +1079,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
-				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C619ABB0A807682D782B08CD2743FB3 /* Build configuration list for PBXNativeTarget "Pods-GStackScrollView_Example" */ = {
+		9BF71C2B0A94C3F74C872199186C5C5C /* Build configuration list for PBXNativeTarget "GNestedScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB07812B4B2CE568D1E661E6DED3C6A2 /* Debug */,
-				53DAD5F006A2157C92C8FF4530978519 /* Release */,
+				BBDEA501E8E9B4B40975D24254A3D79B /* Debug */,
+				297D3DD38462B54FD1FFD4303EB4ED37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1103,11 +1103,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED2C4F69B222727EF082E4C0C8605810 /* Build configuration list for PBXNativeTarget "GStackScrollView" */ = {
+		FA7E77AB19396D15F5EA3E0F3CB568BE /* Build configuration list for PBXNativeTarget "Pods-GNestedScrollView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BDD97280F1B4B278C5E5724257D6BCE /* Debug */,
-				45D90C96AB2A7D21CE08BBC4693840F4 /* Release */,
+				8BDFE0A199EAE056F7672337F4EC2D55 /* Debug */,
+				0CF058A578D3612B46A6F12F7E9C380C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

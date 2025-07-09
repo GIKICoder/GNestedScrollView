@@ -1,0 +1,6 @@
+framework module GNestedScrollView {
+  umbrella header "GNestedScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

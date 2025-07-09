@@ -1,0 +1,6 @@
+framework module Pods_GNestedScrollView_Tests {
+  umbrella header "Pods-GNestedScrollView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
