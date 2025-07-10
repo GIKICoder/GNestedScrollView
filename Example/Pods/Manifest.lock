@@ -1,5 +1,5 @@
 PODS:
-  - GNestedScrollView (0.1.0)
+  - GNestedScrollView (0.1.5)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GNestedScrollView: cbcff6cc4c4f9948bc8f75cf092c51ee8e259e02
+  GNestedScrollView: 26b0d8f4cf912d71c98e93b1eab496193464a578
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 75ce8293df56ffc2dfed668397edfc6fa0ff8f9a
